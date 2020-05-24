@@ -47,7 +47,7 @@
 	var/l_hacking = 0
 	var/open = 0
 
-	unique_save_vars = list("code", "door_color", "stripe_color", "locked", "open", "panel_open", "l_hacking", "l_set", "l_code", "l_setshort", "keypad")
+	unique_save_vars = list("req_access", "req_one_access", "code", "door_color", "stripe_color", "locked", "open", "panel_open", "l_hacking", "l_set", "l_code", "l_setshort", "keypad")
 
 	// turf animation
 	var/atom/movable/overlay/c_animation = null
@@ -289,8 +289,13 @@
 		repairing = null
 		return
 
+
 	//psa to whoever coded this, there are plenty of objects that need to call attack() on doors without bludgeoning them.
 	if(src.density && istype(I, /obj/item/weapon) && user.a_intent == I_HURT && !istype(I, /obj/item/weapon/card))
+		if(user.IsAntiGrief())
+			to_chat(user, "You consider not messing with the door.")
+			return
+
 		var/obj/item/weapon/W = I
 		user.setClickCooldown(user.get_attack_speed(W))
 		if(W.damtype == BRUTE || W.damtype == BURN)

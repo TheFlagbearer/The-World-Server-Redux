@@ -124,10 +124,13 @@
 
 	if(.)//.. if did move, ram the turf we get in
 		var/turf/T = get_turf(loc)
-		ram_turf(T)
+		var/area/A = get_area(loc)
 
-		if(prob(10) && !istype(T, /turf/space))//randomly takes a 'hit' from ramming
-			get_hit()
+		if(!A || !A.lot_id)
+			ram_turf(T)
+
+			if(prob(10) && !istype(T, /turf/space))//randomly takes a 'hit' from ramming
+				get_hit()
 
 	return .
 

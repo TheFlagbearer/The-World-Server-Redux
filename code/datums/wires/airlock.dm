@@ -28,6 +28,10 @@ var/const/AIRLOCK_WIRE_LIGHT = 2048
 		if(A.isElectrified())
 			if(A.shock(L, 100))
 				return 0
+	if(L.IsAntiGrief())
+		to_chat(L, "You don't want to mess with the door's wires...")
+		return
+
 	if(A.p_open)
 		return 1
 	return 0

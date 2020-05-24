@@ -182,6 +182,7 @@
 
 /obj/structure/window/attack_hand(mob/user as mob)
 	user.setClickCooldown(user.get_attack_speed())
+
 	if(HULK in user.mutations)
 		user.say(pick(";RAAAAAAAARGH!", ";HNNNNNNNNNGGGGGGH!", ";GWAAAAAAAARRRHHH!", "NNNNNNNNGGGGGGGGHH!", ";AAAAAAARRRGH!"))
 		user.visible_message("<span class='danger'>[user] smashes through [src]!</span>")
@@ -189,6 +190,9 @@
 		shatter()
 
 	else if (usr.a_intent == I_HURT)
+
+		if(user.IsAntiGrief())
+			return
 
 		if (istype(usr,/mob/living/carbon/human))
 			var/mob/living/carbon/human/H = usr
@@ -228,7 +232,7 @@
 	if(istype(W, /obj/item/device/floor_painter) && user.a_intent == I_HELP)
 		return // windows are paintable now, so no accidental damage should happen.
 
-	if(user.IsAntiGrief() && (user.a_intent != I_HELP || W))
+	if(user.IsAntiGrief() && W)
 		to_chat(user, "<span class='notice'>You don't feel like messing with windows.</span>")
 		return
 

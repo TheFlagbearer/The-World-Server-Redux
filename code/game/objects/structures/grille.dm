@@ -131,6 +131,10 @@
 	spawn(0) healthcheck() //spawn to make sure we return properly if the grille is deleted
 
 /obj/structure/grille/attackby(obj/item/weapon/W as obj, mob/user as mob)
+	if(user.IsAntiGrief())
+		to_chat(user, "<span class='danger'>You wish to do no harm.</span>")
+		return 0
+
 	if(iswirecutter(W))
 		if(!shock(user, 100))
 			playsound(src, W.usesound, 100, 1)
@@ -244,6 +248,9 @@
 	..()
 
 /obj/structure/grille/attack_generic(var/mob/user, var/damage, var/attack_verb)
+	if(user.IsAntiGrief())
+		return 0
+
 	visible_message("<span class='danger'>[user] [attack_verb] the [src]!</span>")
 	user.do_attack_animation(src)
 	health -= damage
