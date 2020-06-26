@@ -58,6 +58,16 @@ var/global/list/antag_names_to_ids = list()
 		return antag.current_antagonists
 	return list()
 
+/datum/antagonist/proc/get_all_lobby_antags()
+	var/list/lobby_antags = list()
+	for(var/antag_type in all_antag_types)
+		var/datum/antagonist/antag = all_antag_types[antag_type]
+
+		if(antag.lobby_join)
+			lobby_antags += antag
+
+	return lobby_antags
+
 /proc/player_is_antag(var/datum/mind/player, var/only_offstation_roles = 0)
 	for(var/antag_type in all_antag_types)
 		var/datum/antagonist/antag = all_antag_types[antag_type]
@@ -68,3 +78,4 @@ var/global/list/antag_names_to_ids = list()
 		if(player in antag.pending_antagonists)
 			return 1
 	return 0
+

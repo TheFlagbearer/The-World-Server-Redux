@@ -84,6 +84,11 @@
 	var/can_hear_aooc = TRUE		// If FALSE, the antag can neither speak nor hear AOOC. If TRUE, they can at least hear it.
 	var/can_speak_aooc = TRUE		// If TRUE, the antag can freely spean in AOOC.
 
+	var/players_needed = 0			// recommended amount of players required
+	var/police_needed = 0			// recommended amount of police needed
+
+	var/lobby_join = FALSE			// can you join as this type of antagonist from the lobby?
+
 /datum/antagonist/New()
 	..()
 	cur_max = hard_cap
