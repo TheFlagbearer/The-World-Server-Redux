@@ -95,10 +95,10 @@
 	var/owner_uid = I.unique_ID
 
 	if(!business_name)
-		var/biz = get_business_by_owner_uid(owner_uid).name
+		var/datum/business/biz = get_business_by_owner_uid(owner_uid)
 		if(biz)
 			playsound(src, 'sound/machines/chime.ogg', 25)
-			name = "[biz] rubber stamp"
+			name = "[biz.name] rubber stamp"
 			to_chat(user, "<span class='notice'>The stamp registers your business name to its memory.</span>")
 		else
 			playsound(src, 'sound/machines/buzz-sigh.ogg', 25)
