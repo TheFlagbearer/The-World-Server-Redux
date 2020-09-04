@@ -103,9 +103,11 @@
 		else
 			playsound(src, 'sound/machines/buzz-sigh.ogg', 25)
 			to_chat(user, "<span class='notice'>[name] was unable to find a business linked to your ID.</span>")
+			return
 	else
 		playsound(src, 'sound/machines/buzz-sigh.ogg', 25)
 		to_chat(user, "<span class='notice'>There is already a business linked to the stamp.</span>")
+		return
 
 // Syndicate stamp to forge documents.
 /obj/item/weapon/stamp/chameleon/attack_self(mob/user as mob)
