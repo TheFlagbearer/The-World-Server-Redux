@@ -1195,3 +1195,31 @@ var/list/floor_decals = list()
 /obj/effect/floor_decal/pavement_grit/rough_edged
 	name = "rough edged pavement grit"
 	icon_state = "pavement_grit4"
+
+//Dungeon decals - Meant to be placed manually. Not for spawning.
+/obj/effect/floor_decal/dungeon
+	icon = 'icons/obj/decals_dungeon.dmi'
+
+/obj/effect/floor_decal/grating //Generate icon_states for this. Reduces unnecessary coding.
+	name = "large grate"
+	desc = "Only darkness lies beneath this."
+	icon_state = "big_grate_0"
+
+/obj/effect/floor_decal/grate
+	name = "thin grate"
+	desc = "There's nothing down here. Hopefully."
+	icon_state = "grate"
+
+/obj/effect/floor_decal/grate/full
+	desc = "Stagnant water is pooled here."
+	icon_state = "grate_full"
+
+/obj/effect/floor_decal/pit
+	name = "deep pit"
+	desc = "A very deep pit. You can't see the bottom."
+	icon_state = "hole_1" //Generate icon_states.
+
+/obj/effect/floor_decal/catacomb
+	name = "catacombs"
+	desc = "Old bones lie here. They don't appear to be human."
+	icon_state = "catacombs1_1" //See above.
