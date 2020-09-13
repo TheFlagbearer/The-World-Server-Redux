@@ -167,7 +167,11 @@
 
 /turf/simulated/floor/redspace
 	icon = 'icons/turf/redspace.dmi'
-	icon_state = "basalt"
+	icon_state = "basalt0"
 	oxygen = MOLES_O2POLLUX
 	nitrogen = MOLES_N2POLLUX
 	temperature = 430
+
+/turf/simulated/floor/redspace/New()
+	..()
+	icon_state = "basalt[rand(0, 11)]"

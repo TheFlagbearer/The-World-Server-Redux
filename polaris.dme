@@ -2558,6 +2558,7 @@
 #include "code\modules\recycling\disposal-construction.dm"
 #include "code\modules\recycling\disposal.dm"
 #include "code\modules\recycling\sortingmachinery.dm"
+#include "code\modules\redspace\rifts.dm"
 #include "code\modules\research\circuitprinter.dm"
 #include "code\modules\research\designs.dm"
 #include "code\modules\research\destructive_analyzer.dm"

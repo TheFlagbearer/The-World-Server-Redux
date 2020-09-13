@@ -281,3 +281,12 @@
 
 /turf/simulated/wall/concrete/New(var/newloc)
 	..(newloc,MATERIAL_CONCRETE)
+
+/turf/simulated/wall/dungeon
+	name = "old walls"
+	desc = "If only these walls could speak."
+	icon_state = "dungeon_1"
+	block_tele = TRUE
+
+/turf/simulated/wall/dungeon/New(var/newloc)
+	..(newloc,"dungeonium")

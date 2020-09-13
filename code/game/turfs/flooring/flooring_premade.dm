@@ -444,9 +444,9 @@
 	icon_state = "snow"
 	var/list/crossed_dirs = list()
 
-/turf/simulated/floor/snow/snow2
+/turf/simulated/floor/snow/snow2 //DON'T USE THIS FOR GEMINUS SNOW MAPS - MEANT FOR GLACE GRIA
 	name = "snow"
-	icon = 'icons/turf/snow.dmi'
+	icon = 'icons/turf/snow_new.dmi'
 	icon_state = "snow"
 	initial_flooring = /decl/flooring/snow
 
