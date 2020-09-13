@@ -68,7 +68,7 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 			return_name = "Diamond"
 		if("copper")
 			return_name = "Copper"
-		if("aluminium"
+		if("aluminium")
 			return_name = "Aluminium"
 		if("titanium")
 			return_name = "Titanium"

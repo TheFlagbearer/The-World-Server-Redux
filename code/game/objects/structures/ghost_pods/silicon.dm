@@ -88,7 +88,7 @@
 /obj/structure/ghost_pod/manual/cursedblade
 	name = "abandoned blade"
 	desc = "A red crystal blade that someone jammed deep into a stone. If you try hard enough, you might be able to remove it."
-	icon_state = "taurus-embedded"
+	icon_state = "soulblade-embedded"
 	icon_state_opened = "soulblade-released"
 	density = TRUE
 	anchored = TRUE
@@ -101,16 +101,15 @@
 /obj/structure/ghost_pod/manual/cursedblade/create_occupant(var/mob/M)
 	density = FALSE
 	var/obj/item/weapon/melee/cursedblade/R = new(get_turf(src))
-	to_chat(M, "<span class='notice'>You are a <b>Cursed Sword</b>, discovered by a hapless explorer. \
-	You were once an explorer yourself, when one day you discovered a strange sword made from a red crystal. As soon as you touched it,\
-	your body was reduced to ashes and your soul was cursed to remain trapped in the blade forever. \
-	Now it is up to you to decide whether you want to be a faithful companion, or a bitter prisoner of the blade.</span>")
+	to_chat(M, "<span class='notice'>You are the <b>Taurus</b>, discovered by a hapless explorer. \
+	You are inhabited by a multitude of eons old spirits. Your past is shrouded in mystery and there are so many souls \
+	within you that even you do not know which one was first. You do not even know your own name.</span>")
 	R.ghost_inhabit(M)
 	visible_message("<span class='warning'>The blade shines brightly for a brief moment as [usr] pulls it out of the stone!</span>")
 	log_and_message_admins("successfully acquired a cursed sword.")
 	..()
 
-/obj/structure/ghost_pod/manual/cursedblade/taurus
+/*/obj/structure/ghost_pod/manual/cursedblade/taurus
 	desc = "A blade made of some sort of bone is trapped in this rock. If you try hard enough, you might be able to remove it."
 
 /obj/structure/ghost_pod/manual/cursedblade/taurus/create_occupant(var/mob/M)
@@ -122,4 +121,4 @@
 	R.ghost_inhabit(M)
 	visible_message("<span class='warning'>The blade quivers for a brief moment as [usr] pulls it out of the stone!</span>")
 	log_and_message_admins("successfully acquired the Taurus.")
-	..()
+	..()*/
