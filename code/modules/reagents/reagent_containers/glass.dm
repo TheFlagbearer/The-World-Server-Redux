@@ -345,3 +345,13 @@ obj/item/weapon/reagent_containers/glass/bucket/wood
 	possible_transfer_amounts = list(10,20,30,60,120)
 	volume = 120
 	drop_sound = 'sound/items/drop/glass.ogg'
+
+/*/obj/item/weapon/reagent_containers/glass/beaker/arcane
+	desc = "A chalice made of void opal. When one peers inside, it is impossible to see the bottom."
+	name = "arcane chalice"
+	icon_state = "beakerarcane"
+	matter =  list("void opal" = 2000)
+	volume = 500
+	amount_per_transfer_from_this = 10
+	possible_transfer_amounts = list(5,10,15,25,30,60,120,250,500)
+	flags = OPENCONTAINER*/
