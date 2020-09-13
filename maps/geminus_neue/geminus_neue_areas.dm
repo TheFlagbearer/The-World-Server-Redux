@@ -474,3 +474,9 @@
 
 /area/redspace/outpost/lab
 	name = "Parascience Outpost - Laboratory"
+
+/area/redspace/caves
+	name = "Glace Grian Caves"
+
+/area/redspace/antechamber
+	name = "Glace Grian Caves - Antechamber"

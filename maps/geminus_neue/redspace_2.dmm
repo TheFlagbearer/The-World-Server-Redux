@@ -1,0 +1,393 @@
+"aa" = (/turf/unsimulated/wall/planetary,/area/redspace/caves)
+"ab" = (/turf/simulated/mineral/impassable,/area/redspace/caves)
+"ac" = (/turf/simulated/floor/redspace,/area/redspace/caves)
+"ad" = (/turf/space,/area/redspace/caves)
+"ae" = (/turf/simulated/mineral/ignore_mapgen,/area/redspace/caves)
+"af" = (/turf/simulated/floor/dungeon,/area/redspace/caves)
+"ag" = (/turf/simulated/floor/dungeon{icon_state = "gravel_blue"},/area/redspace/caves)
+"ah" = (/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"ai" = (/obj/structure/boulder,/turf/simulated/floor/dungeon{icon_state = "gravel_blue"},/area/redspace/caves)
+"aj" = (/turf/simulated/wall/cult,/area/redspace/caves)
+"ak" = (/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"al" = (/turf/simulated/floor/redspace,/area/redspace/antechamber)
+"am" = (/obj/effect/decal/cleanable/cobweb,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"an" = (/obj/effect/decal/remains/mummy1,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"ao" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 0,8"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"ap" = (/obj/item/weapon/ectoplasm,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aq" = (/obj/effect/decal/cleanable/blood,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"ar" = (/obj/machinery/gateway{dir = 9; icon_state = "off"},/turf/simulated/floor/redspace,/area/redspace/antechamber)
+"as" = (/obj/machinery/gateway{dir = 1; icon_state = "off"},/turf/simulated/floor/redspace,/area/redspace/antechamber)
+"at" = (/obj/machinery/gateway{dir = 5; icon_state = "off"},/turf/simulated/floor/redspace,/area/redspace/antechamber)
+"au" = (/obj/effect/decal/remains/xeno,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"av" = (/obj/structure/loot_pile/maint/technical,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"aw" = (/obj/structure/loot_pile/maint/technical,/obj/effect/decal/cleanable/cobweb2,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"ax" = (/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"ay" = (/obj/item/clothing/mask/smokable/pipe,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"az" = (/obj/effect/rune,/obj/effect/decal/remains/human,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aA" = (/obj/machinery/gateway{dir = 8; icon_state = "off"},/turf/simulated/floor/redspace,/area/redspace/antechamber)
+"aB" = (/obj/machinery/gateway{dir = 4; icon_state = "off"},/turf/simulated/floor/redspace,/area/redspace/antechamber)
+"aC" = (/obj/effect/decal/cleanable/blood/xeno,/turf/simulated/floor/redspace,/area/redspace/antechamber)
+"aD" = (/obj/machinery/artifact,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aE" = (/obj/effect/decal/cleanable/blood,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"aF" = (/obj/machinery/gateway{dir = 10; icon_state = "off"},/turf/simulated/floor/redspace,/area/redspace/antechamber)
+"aG" = (/obj/machinery/gateway,/turf/simulated/floor/redspace,/area/redspace/antechamber)
+"aH" = (/obj/machinery/gateway{dir = 6; icon_state = "off"},/turf/simulated/floor/redspace,/area/redspace/antechamber)
+"aI" = (/obj/effect/decal/cleanable/blood/xeno,/obj/effect/decal/remains/posi,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"aJ" = (/turf/simulated/wall/cult,/area/redspace/antechamber)
+"aK" = (/obj/structure/prop/alien/power,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aL" = (/obj/structure/prop/redspace/bifrost{icon_state = "vault 0,2"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aM" = (/obj/structure/prop/redspace/bifrost{icon_state = "vault 1,2"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aN" = (/obj/structure/prop/redspace/bifrost{icon_state = "vault 2,2"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aO" = (/obj/effect/floor_decal/pavement_grit/rough,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"aP" = (/obj/effect/decal/cleanable/blood/xeno,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"aQ" = (/obj/effect/decal/cleanable/blood/xeno,/obj/structure/prop/alien/power,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aR" = (/obj/structure/prop/redspace/bifrost{icon_state = "vault 0,1"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aS" = (/obj/effect/decal/cleanable/blood,/obj/effect/decal/remains/human,/obj/structure/prop/redspace/bifrost{icon_state = "vault 1,1"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aT" = (/obj/structure/prop/redspace/bifrost{icon_state = "vault 2,1"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aU" = (/obj/effect/decal/remains/human,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"aV" = (/obj/structure/boulder,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aW" = (/obj/structure/prop/redspace/bifrost{icon_state = "vault 0,0"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aX" = (/obj/structure/prop/redspace/bifrost{icon_state = "vault 2,0"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"aY" = (/obj/effect/decal/remains/xeno,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"aZ" = (/obj/structure/boulder,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"ba" = (/obj/structure/prop/alien/computer,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"bb" = (/obj/structure/prop/alien/computer/camera/flipped,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"bc" = (/obj/effect/floor_decal/dungeon/catacomb{icon_state = "catacombs2_1"},/turf/simulated/wall/cult,/area/redspace/caves)
+"bd" = (/obj/effect/floor_decal/dungeon/catacomb{icon_state = "catacombs1_2"},/turf/simulated/wall/cult,/area/redspace/caves)
+"be" = (/obj/effect/floor_decal/dungeon/grating{icon_state = "big_grate_6"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"bf" = (/obj/structure/loot_pile/maint/technical,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"bg" = (/obj/effect/decal/cleanable/cobweb2,/turf/simulated/floor/dungeon{icon_state = "gravel_blue"},/area/redspace/caves)
+"bh" = (/obj/effect/floor_decal/dungeon/grating{icon_state = "big_grate_7"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"bi" = (/obj/effect/floor_decal/dungeon/grating{icon_state = "big_grate_8"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"bj" = (/obj/effect/floor_decal/dungeon/grating{icon_state = "big_grate_3"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"bk" = (/obj/effect/decal/cleanable/cobweb,/turf/simulated/floor/dungeon{icon_state = "gravel_blue"},/area/redspace/caves)
+"bl" = (/obj/effect/floor_decal/dungeon/grating{icon_state = "big_grate_4"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"bm" = (/obj/effect/floor_decal/dungeon/grating{icon_state = "big_grate_5"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"bn" = (/obj/effect/floor_decal/dungeon/grating,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"bo" = (/obj/effect/decal/cleanable/cobweb,/turf/simulated/floor/dungeon/grate/full,/area/redspace/antechamber)
+"bp" = (/obj/effect/decal/cleanable/cobweb2,/turf/simulated/floor/dungeon/grate/full,/area/redspace/antechamber)
+"bq" = (/obj/effect/decal/cleanable/blood,/turf/simulated/floor/dungeon{icon_state = "gravel_blue"},/area/redspace/caves)
+"br" = (/obj/effect/floor_decal/dungeon/pit{icon_state = "hole_3"},/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"bs" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 1,8"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"bt" = (/turf/simulated/floor/dungeon{icon_state = "gravel_blue"},/area/redspace/antechamber)
+"bu" = (/obj/structure/boulder,/turf/simulated/floor/dungeon{icon_state = "gravel_blue"},/area/redspace/antechamber)
+"bv" = (/obj/effect/decal/cleanable/blood,/obj/structure/boulder,/turf/simulated/floor/dungeon{icon_state = "gravel_blue"},/area/redspace/antechamber)
+"bw" = (/obj/effect/floor_decal/dungeon/pit{icon_state = "hole_4"},/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"bx" = (/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"by" = (/turf/simulated/floor/dungeon{icon_state = "tile_blue2"},/area/redspace/antechamber)
+"bz" = (/obj/item/weapon/ore,/obj/structure/boulder,/turf/simulated/floor/dungeon{icon_state = "gravel_blue"},/area/redspace/antechamber)
+"bA" = (/turf/simulated/wall/sandstone,/area/redspace/antechamber)
+"bB" = (/obj/effect/floor_decal/pavement_grit/centered,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"bC" = (/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"bD" = (/obj/structure/lattice,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"bE" = (/obj/effect/spider/stickyweb,/turf/simulated/shuttle/plating,/area/redspace/caves)
+"bF" = (/obj/structure/sign/greencross{desc = "White cross in a green field, you can get medical aid here."; name = "First-Aid"},/turf/simulated/shuttle/wall/no_join,/area/redspace/caves)
+"bG" = (/obj/structure/grille,/obj/structure/shuttle/window,/turf/simulated/shuttle/plating,/area/redspace/caves)
+"bH" = (/turf/simulated/shuttle/wall,/area/redspace/caves)
+"bI" = (/obj/structure/cult/talisman,/turf/simulated/floor/dungeon{icon_state = "tile_blue2"},/area/redspace/antechamber)
+"bJ" = (/obj/structure/boulder,/turf/simulated/floor/dungeon{icon_state = "tile_blue2"},/area/redspace/antechamber)
+"bK" = (/obj/item/weapon/material/shard{icon_state = "medium"},/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"bL" = (/obj/item/weapon/material/shard{icon_state = "medium"},/obj/effect/decal/cleanable/blood/oil,/obj/structure/lattice,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"bM" = (/obj/machinery/light/small{dir = 4; pixel_y = 0},/obj/structure/sign/warning/airlock{pixel_x = 32},/obj/effect/spider/stickyweb,/turf/simulated/shuttle/plating,/area/redspace/caves)
+"bN" = (/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"bO" = (/obj/item/weapon/storage/toolbox/mechanical,/obj/machinery/light{dir = 1},/obj/structure/table/standard,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"bP" = (/obj/structure/table/standard,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"bQ" = (/obj/machinery/artifact,/obj/structure/anomaly_container,/turf/simulated/floor/dungeon{icon_state = "tile_blue2"},/area/redspace/antechamber)
+"bR" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 0,7"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"bS" = (/obj/structure/window/reinforced,/obj/effect/decal/cleanable/blood/oil,/obj/structure/loot_pile/surface/bones,/obj/structure/lattice,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"bT" = (/obj/item/weapon/circuitboard/broken,/obj/structure/door_assembly/door_assembly_ext,/turf/simulated/shuttle/plating,/area/redspace/caves)
+"bU" = (/obj/structure/door_assembly/door_assembly_ext,/turf/simulated/shuttle/plating,/area/redspace/caves)
+"bV" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 1,7"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"bW" = (/obj/structure/closet/crate/medical,/obj/random/medical,/obj/random/medical,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"bX" = (/obj/structure/table/standard,/obj/machinery/cell_charger,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"bY" = (/obj/item/weapon/material/shard,/obj/structure/lattice,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"bZ" = (/obj/structure/closet/secure_closet/personal/patient,/obj/effect/spider/stickyweb,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"ca" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 0,6"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"cb" = (/obj/machinery/door/airlock/glass,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cc" = (/obj/effect/decal/cleanable/blood/drip,/obj/effect/decal/cleanable/liquid_fuel,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cd" = (/obj/effect/decal/cleanable/blood,/obj/effect/decal/cleanable/liquid_fuel,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"ce" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 1,6"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"cf" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 0,5"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"cg" = (/obj/item/stack/rods,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"ch" = (/obj/structure/lattice,/obj/item/stack/rods,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"ci" = (/obj/effect/decal/cleanable/blood/oil,/obj/item/weapon/firstaid_arm_assembly,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cj" = (/obj/structure/closet/secure_closet/personal/patient,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"ck" = (/obj/effect/decal/cleanable/blood/drip,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cl" = (/obj/structure/reagent_dispensers/fueltank,/obj/effect/decal/cleanable/liquid_fuel,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cm" = (/obj/structure/reagent_dispensers/watertank,/obj/effect/decal/cleanable/liquid_fuel,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cn" = (/obj/machinery/recharge_station,/obj/effect/decal/cleanable/liquid_fuel,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"co" = (/obj/structure/table/standard,/obj/effect/spider/stickyweb,/obj/machinery/light,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cp" = (/obj/structure/table/standard,/obj/effect/spider/stickyweb,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cq" = (/obj/structure/table/standard,/obj/item/weapon/material/shard{icon_state = "medium"},/obj/effect/spider/stickyweb,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cr" = (/obj/structure/grille/broken,/obj/item/weapon/material/shard{icon_state = "medium"},/obj/item/stack/rods,/turf/simulated/shuttle/plating,/area/redspace/caves)
+"cs" = (/obj/item/weapon/material/shard,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"ct" = (/obj/effect/decal/cleanable/blood/oil,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cu" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 1,5"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"cv" = (/obj/effect/decal/cleanable/blood/gibs/robot,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cw" = (/obj/effect/spider/stickyweb,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cx" = (/turf/simulated/shuttle/wall/no_join,/area/redspace/caves)
+"cy" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 1,4"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"cz" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 0,3"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"cA" = (/obj/effect/floor_decal/asteroid,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"cB" = (/obj/effect/decal/cleanable/blood/oil,/obj/structure/loot_pile/surface/bones,/obj/structure/lattice,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cC" = (/obj/machinery/light,/obj/structure/table/standard,/obj/effect/spider/stickyweb,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cD" = (/obj/structure/table/standard,/obj/item/weapon/material/shard{icon_state = "medium"},/obj/random/medical,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cE" = (/obj/effect/spider/stickyweb,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cF" = (/obj/effect/decal/cleanable/blood/drip,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cG" = (/obj/machinery/computer,/turf/simulated/shuttle/floor/yellow,/area/redspace/caves)
+"cH" = (/obj/structure/frame/computer,/turf/simulated/shuttle/floor/yellow,/area/redspace/caves)
+"cI" = (/obj/effect/spider/stickyweb,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"cJ" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 1,3"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"cK" = (/obj/effect/spider/cocoon,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"cL" = (/obj/item/weapon/material/shard{icon_state = "medium"},/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cM" = (/obj/item/stack/rods,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cN" = (/obj/effect/spider/stickyweb,/obj/structure/girder/displaced,/obj/structure/lattice,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cO" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 2,3"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"cP" = (/obj/effect/decal/cleanable/blood/splatter,/obj/structure/loot_pile/surface/bones,/obj/effect/decal/cleanable/blood/drip,/obj/structure/lattice,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cQ" = (/obj/structure/grille/broken,/obj/item/weapon/material/shard{icon_state = "medium"},/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cR" = (/obj/effect/decal/mecha_wreckage/odysseus,/obj/effect/decal/cleanable/blood/oil,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"cS" = (/obj/item/weapon/material/shard,/obj/effect/spider/stickyweb,/obj/item/weapon/beartrap{anchored = 1; deployed = 1; icon_state = "beartrap1"},/obj/random/trash,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cT" = (/obj/effect/decal/cleanable/blood/oil,/obj/structure/lattice,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cU" = (/obj/effect/spider/stickyweb,/obj/item/weapon/material/shard,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cV" = (/obj/random/medical,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"cW" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 0,2"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"cX" = (/obj/effect/spider/cocoon,/obj/structure/lattice,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"cY" = (/obj/structure{anchored = 1; density = 1; desc = "Once an artificial intelligence; now merely a brick of inert metal and circuits."; icon = 'icons/mob/AI.dmi'; icon_state = "ai-empty"; name = "V.I.T.A"},/turf/simulated/shuttle/floor/yellow,/area/redspace/caves)
+"cZ" = (/obj/structure/flora/tree/sif,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"da" = (/obj/structure/grille/broken,/obj/item/weapon/material/shard,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"db" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 1,2"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"dc" = (/obj/effect/decal/cleanable/blood/drip,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"dd" = (/obj/effect/decal/remains/tajaran,/obj/item/weapon/surgical/circular_saw,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"de" = (/obj/effect/decal/cleanable/blood/oil,/obj/effect/spider/stickyweb,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"df" = (/obj/item/weapon/material/shard,/obj/structure/loot_pile/maint/technical,/obj/structure/lattice,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"dg" = (/obj/structure/bed/chair/office/light{dir = 8},/turf/simulated/shuttle/floor/purple,/area/redspace/caves)
+"dh" = (/obj/item/weapon/circuitboard/broken,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"di" = (/obj/structure/girder,/turf/template_noop,/area/redspace/caves)
+"dj" = (/obj/structure/girder/displaced,/turf/template_noop,/area/redspace/caves)
+"dk" = (/obj/item/weapon/ore,/turf/simulated/floor/dungeon,/area/redspace/caves)
+"dl" = (/obj/structure/anomaly_container,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"dm" = (/obj/structure/shuttle/engine/propulsion{icon_state = "propulsion_r"; dir = 8},/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"dn" = (/obj/structure/shuttle/engine/heater{icon_state = "heater"; dir = 8},/obj/structure/window/reinforced{dir = 4},/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"do" = (/obj/structure/table/standard,/obj/item/weapon/storage/firstaid/adv,/turf/simulated/shuttle/floor/purple,/area/redspace/caves)
+"dp" = (/obj/structure/table/standard,/turf/simulated/shuttle/floor/purple,/area/redspace/caves)
+"dq" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 2,2"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"dr" = (/obj/structure/table/standard,/obj/item/device/defib_kit/loaded,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"ds" = (/obj/structure/table/standard,/obj/item/bodybag/cryobag,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dt" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/bodybags,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"du" = (/obj/machinery/light{dir = 1},/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dv" = (/obj/structure/table/standard,/obj/item/weapon/surgical/retractor,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dw" = (/obj/item/weapon/material/shard,/obj/structure/grille,/turf/simulated/shuttle/plating,/area/redspace/caves)
+"dx" = (/turf/simulated/wall,/area/redspace/caves)
+"dy" = (/obj/item/frame/apc,/obj/item/weapon/module/power_control,/turf/simulated/floor/plating/external,/area/redspace/caves)
+"dz" = (/obj/structure/table/steel,/obj/machinery/cell_charger,/obj/random/powercell,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"dA" = (/obj/structure/table/steel,/obj/item/weapon/storage/excavation,/obj/item/device/measuring_tape,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"dB" = (/obj/machinery/light{dir = 8},/obj/structure/table/standard,/obj/structure/loot_pile/maint/technical,/turf/simulated/shuttle/floor/purple,/area/redspace/caves)
+"dC" = (/obj/effect/decal/cleanable/blood/gibs/robot,/obj/effect/spider/cocoon,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dD" = (/obj/machinery/light{icon_state = "tube1"; dir = 4},/obj/structure/closet/secure_closet/medical_wall/anesthetics{pixel_x = 32},/obj/item/weapon/material/shard{icon_state = "medium"},/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dE" = (/obj/machinery/light{dir = 8; icon_state = "tube1"; pixel_y = 0},/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dF" = (/obj/effect/spider/cocoon,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dG" = (/obj/effect/decal/cleanable/blood/splatter,/obj/structure/loot_pile/surface/bones,/obj/item/weapon/surgical/surgicaldrill,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dH" = (/obj/item/weapon/material/shard{icon_state = "medium"},/obj/structure/grille,/turf/simulated/shuttle/plating,/area/redspace/caves)
+"dI" = (/obj/machinery/power/port_gen/pacman/super,/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/plating/external,/area/redspace/caves)
+"dJ" = (/obj/structure/cable/yellow{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/plating/external,/area/redspace/caves)
+"dK" = (/obj/structure/bed/chair{dir = 4},/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"dL" = (/obj/structure/table/steel,/obj/item/weapon/folder,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"dM" = (/obj/structure/table/rack,/obj/item/weapon/pickaxe,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"dN" = (/obj/structure/table/standard,/obj/item/device/reagent_scanner/adv,/turf/simulated/shuttle/floor/purple,/area/redspace/caves)
+"dO" = (/obj/machinery/iv_drip,/obj/item/weapon/reagent_containers/blood/empty,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dP" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 0,1"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"dQ" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/masks,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dR" = (/obj/structure/table/standard,/obj/random/firstaid,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dS" = (/obj/structure/table/standard,/obj/item/weapon/storage/backpack/medic,/obj/random/medical/lite,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dT" = (/obj/structure/table/standard,/obj/effect/spider/stickyweb,/obj/random/medical,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"dU" = (/obj/structure/girder,/turf/simulated/shuttle/plating,/area/redspace/caves)
+"dV" = (/obj/structure/loot_pile/maint/technical,/turf/simulated/floor/plating/external,/area/redspace/caves)
+"dW" = (/turf/simulated/floor/plating/external,/area/redspace/caves)
+"dX" = (/obj/structure/table/steel,/obj/random/tech_supply,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"dY" = (/obj/structure/table/rack,/obj/item/weapon/shovel,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"dZ" = (/obj/structure/boulder,/obj/effect/decal/mecha_wreckage/ripley,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"ea" = (/obj/structure/frame,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"eb" = (/obj/structure/table/standard,/obj/structure/sign/periodic{pixel_y = -32},/obj/item/weapon/surgical/bonesetter,/obj/item/weapon/surgical/scalpel,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"ec" = (/obj/machinery/optable,/obj/effect/decal/cleanable/blood/splatter,/obj/structure/loot_pile/surface/bones,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"ed" = (/obj/structure/table/standard,/obj/item/weapon/surgical/bonegel,/obj/item/weapon/surgical/FixOVein,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"ee" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 1,1"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"ef" = (/obj/structure/table/standard,/obj/item/weapon/storage/belt/medical/emt,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"eg" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/syringes,/obj/effect/spider/stickyweb,/obj/machinery/light,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"eh" = (/obj/structure/boulder,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"ei" = (/obj/structure/loot_pile/maint/junk,/turf/simulated/floor/plating/external,/area/redspace/caves)
+"ej" = (/obj/structure/table/steel,/obj/item/weapon/wrench,/obj/item/weapon/storage/box/samplebags,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"ek" = (/obj/structure/table/steel,/obj/item/stack/flag/yellow,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"el" = (/obj/machinery/door/airlock/external{frequency = 1380; icon_state = "door_locked"; id_tag = "admin_shuttle_hatch"; locked = 1; name = "Shuttle Hatch"; req_access = null},/turf/simulated/shuttle/plating,/area/redspace/caves)
+"em" = (/obj/random/toolbox,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"en" = (/obj/structure/closet/crate,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eo" = (/obj/machinery/floodlight,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"ep" = (/obj/structure/ore_box,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eq" = (/turf/simulated/mineral,/area/redspace/caves)
+"er" = (/turf/simulated/wall/r_wall,/area/redspace/caves)
+"es" = (/obj/structure/ladder/up,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"et" = (/obj/machinery/door/airlock/vault/bolted{name = "Sealed Airlock"},/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eu" = (/turf/simulated/floor/water{outdoors = 0},/area/redspace/caves)
+"ev" = (/obj/structure/sign/warning/bomb_range,/turf/simulated/wall/sandstone,/area/redspace/caves)
+"ew" = (/obj/structure/table/rack,/obj/item/weapon/syndie/c4explosive,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"ex" = (/obj/effect/decal/remains/human,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"ey" = (/turf/simulated/floor/holofloor/wood,/area/redspace/caves)
+"ez" = (/obj/structure/loot_pile/surface/bones,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eA" = (/obj/structure/table/rack,/obj/item/clothing/head/bomb_hood,/obj/item/clothing/suit/bomb_suit,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eB" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 2,1"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"eC" = (/obj/structure/table/reinforced,/obj/item/weapon/flame/lighter/zippo/c4detonator{detonator_mode = 1},/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eD" = (/obj/structure/table/rack,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eE" = (/turf/simulated/wall/sandstone,/area/redspace/caves)
+"eF" = (/obj/structure/boulder,/turf/simulated/floor/water{outdoors = 0},/area/redspace/caves)
+"eG" = (/obj/structure/girder/displaced,/obj/structure/sign/warning/bomb_range,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eH" = (/obj/structure/table,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eI" = (/obj/structure/sign/warning/bomb_range,/turf/simulated/wall/sandstone{damage = 20},/area/redspace/caves)
+"eJ" = (/turf/simulated/wall/wood,/area/redspace/caves)
+"eK" = (/obj/effect/decal/remains/human,/obj/structure/boulder,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eL" = (/obj/structure/table/woodentable,/obj/item/device/flashlight/lantern,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eM" = (/obj/structure/table/woodentable,/turf/simulated/floor/holofloor/wood,/area/redspace/caves)
+"eN" = (/obj/structure/table/woodentable,/obj/item/weapon/reagent_containers/food/drinks/bottle/whiskey,/turf/simulated/floor/holofloor/wood,/area/redspace/caves)
+"eO" = (/obj/item/weapon/stool/padded,/turf/simulated/floor/holofloor/wood,/area/redspace/caves)
+"eP" = (/obj/structure/table/steel,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eQ" = (/obj/structure/table/steel,/obj/item/robot_parts/robot_component/actuator,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eR" = (/obj/effect/decal/cleanable/blood,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eS" = (/obj/structure/simple_door/wood,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eT" = (/obj/structure/table/woodentable,/obj/item/device/flashlight/lamp,/turf/simulated/floor/holofloor/wood,/area/redspace/caves)
+"eU" = (/obj/structure/table/steel,/obj/item/device/robotanalyzer,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eV" = (/obj/structure/table/steel,/obj/item/weapon/storage/toolbox,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eW" = (/obj/structure/table/bench/steel,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eX" = (/obj/effect/decal/remains,/obj/item/clothing/under/rank/miner,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"eY" = (/turf/simulated/shuttle/plating,/area/redspace/caves)
+"eZ" = (/obj/structure/closet{icon_closed = "cabinet_closed"; icon_opened = "cabinet_open"; icon_state = "cabinet_closed"},/obj/item/clothing/suit/storage/hooded/wintercoat/miner,/obj/item/clothing/suit/storage/hooded/wintercoat/miner,/turf/simulated/floor/holofloor/wood,/area/redspace/caves)
+"fa" = (/obj/structure/coatrack,/turf/simulated/floor/holofloor/wood,/area/redspace/caves)
+"fb" = (/obj/structure/closet/secure_closet/miner,/turf/simulated/floor/holofloor/wood,/area/redspace/caves)
+"fc" = (/obj/structure/table/steel,/obj/item/robot_parts/l_leg,/obj/item/robot_parts/head,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"fd" = (/obj/effect/decal/cleanable/blood/gibs/robot,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"fe" = (/obj/machinery/power/port_gen/pacman,/turf/simulated/shuttle/plating,/area/redspace/caves)
+"ff" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 0,0"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"fg" = (/obj/effect/floor_decal/dungeon/grating{icon_state = "big_grate_1"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"fh" = (/obj/effect/floor_decal/dungeon/grating{icon_state = "big_grate_2"},/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"fi" = (/obj/effect/floor_decal/dungeon/catacomb,/turf/simulated/wall/cult,/area/redspace/caves)
+"fj" = (/obj/effect/decal/cleanable/cobweb,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"fk" = (/obj/effect/floor_decal/dungeon/pit,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fl" = (/obj/effect/floor_decal/dungeon/pit{icon_state = "hole_2"},/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fm" = (/obj/effect/floor_decal/pavement_grit/rough,/obj/effect/floor_decal/pavement_grit/centered,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fn" = (/obj/effect/decal/cleanable/generic,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"fo" = (/obj/effect/floor_decal/pavement_grit/rough,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"fp" = (/obj/effect/floor_decal/pavement_grit/centered,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"fq" = (/obj/effect/floor_decal/pavement_grit/centered,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"fr" = (/obj/effect/decal/cleanable/generic,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"fs" = (/obj/effect/decal/cleanable/filth,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"ft" = (/obj/effect/floor_decal/dungeon/catacomb{icon_state = "catacombs2_2"},/turf/simulated/wall/cult,/area/redspace/caves)
+"fu" = (/obj/structure/boulder,/turf/simulated/wall/cult,/area/redspace/caves)
+"fv" = (/obj/effect/floor_decal/pavement_grit/rough_edged,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"fw" = (/obj/effect/decal/cleanable/ash,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"fx" = (/obj/effect/decal/cleanable/filth,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"fy" = (/obj/effect/floor_decal/chapel{dir = 1; icon_state = "chapel"; tag = "icon-chapel (NORTH)"},/obj/effect/floor_decal/pavement_grit/centered,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fz" = (/obj/effect/floor_decal/chapel{dir = 4; icon_state = "chapel"; tag = "icon-chapel (EAST)"},/obj/effect/floor_decal/pavement_grit/edged,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fA" = (/obj/effect/floor_decal/chapel{dir = 1; icon_state = "chapel"; tag = "icon-chapel (NORTH)"},/obj/effect/floor_decal/pavement_grit/rough,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fB" = (/obj/effect/floor_decal/chapel{dir = 4; icon_state = "chapel"; tag = "icon-chapel (EAST)"},/obj/effect/floor_decal/pavement_grit/centered,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fC" = (/obj/effect/floor_decal/chapel{dir = 1; icon_state = "chapel"; tag = "icon-chapel (NORTH)"},/obj/effect/floor_decal/pavement_grit/rough_edged,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fD" = (/obj/effect/floor_decal/chapel{dir = 4; icon_state = "chapel"; tag = "icon-chapel (EAST)"},/obj/effect/floor_decal/pavement_grit/rough_edged,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fE" = (/obj/effect/floor_decal/pavement_grit/rough,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"fF" = (/obj/effect/floor_decal/chapel{dir = 8; icon_state = "chapel"; tag = "icon-chapel (WEST)"},/obj/effect/floor_decal/pavement_grit/rough_edged,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fG" = (/obj/effect/floor_decal/chapel,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fH" = (/obj/effect/floor_decal/chapel,/obj/effect/floor_decal/pavement_grit/centered,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fI" = (/obj/effect/floor_decal/chapel{dir = 8; icon_state = "chapel"; tag = "icon-chapel (WEST)"},/obj/effect/floor_decal/pavement_grit/rough,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fJ" = (/obj/effect/floor_decal/pavement_grit/rough_edged,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/caves)
+"fK" = (/obj/effect/decal/cleanable/ash,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"fL" = (/obj/effect/decal/remains/posi,/obj/effect/floor_decal/pavement_grit/rough_edged,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"fM" = (/obj/effect/decal/cleanable/blood/xeno,/obj/effect/floor_decal/pavement_grit/rough,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"fN" = (/obj/structure/boulder,/obj/effect/floor_decal/pavement_grit/rough_edged,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"fO" = (/obj/effect/decal/cleanable/blood/xeno,/obj/effect/floor_decal/pavement_grit/rough_edged,/turf/simulated/floor/dungeon,/area/redspace/antechamber)
+"fP" = (/obj/structure/prop/redspace/containment_pylon{icon_state = "pylon_active 1,0"},/turf/simulated/floor/redspace,/area/redspace/caves)
+"fQ" = (/obj/effect/decal/cleanable/ash,/turf/simulated/floor/dungeon{icon_state = "tile_blue2"},/area/redspace/antechamber)
+"fR" = (/obj/effect/floor_decal/pavement_grit/centered,/obj/effect/decal/remains/mummy1,/turf/simulated/floor/dungeon{icon_state = "tile_blue3"},/area/redspace/antechamber)
+"fS" = (/turf/simulated/mineral/impassable,/area/redspace/antechamber)
+"fT" = (/obj/effect/decal/cleanable/cobweb2,/obj/effect/decal/remains/mummy1,/turf/simulated/floor/dungeon{icon_state = "tile_blue2"},/area/redspace/antechamber)
+"fU" = (/obj/effect/decal/cleanable/liquid_fuel,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"fV" = (/obj/effect/decal/cleanable/blood/gibs/robot,/obj/item/weapon/firstaid_arm_assembly,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"fW" = (/obj/item/weapon/material/shard{icon_state = "medium"},/obj/effect/spider/stickyweb,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"fX" = (/obj/item/weapon/ore,/turf/simulated/mineral/impassable,/area/redspace/caves)
+"fY" = (/obj/effect/floor_decal/asteroid,/turf/simulated/mineral/impassable,/area/redspace/caves)
+"fZ" = (/obj/machinery/light{dir = 8; icon_state = "tube1"; pixel_y = 0},/obj/structure/extinguisher_cabinet{pixel_x = -32},/obj/structure/lattice,/obj/structure/flora/tree/sif,/turf/simulated/floor/outdoors/rocks,/area/redspace/caves)
+"ga" = (/obj/effect/decal/cleanable/blood/drip,/obj/effect/spider/stickyweb,/turf/simulated/mineral/floor/ignore_mapgen,/area/redspace/caves)
+"gb" = (/obj/random/medical/pillbottle,/turf/simulated/shuttle/floor/white,/area/redspace/caves)
+"gc" = (/obj/machinery/embedded_controller/radio/simple_docking_controller{frequency = 1380; id_tag = "admin_shuttle"; pixel_x = -25; pixel_y = 0; req_one_access = list(101); tag_door = "admin_shuttle_hatch"},/turf/simulated/shuttle/plating,/area/redspace/caves)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaa
+aaabacacacacacacacacacacaobsacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadahahahahahahahahahahahahahahahahahahahadabaa
+aaabacacacacacacacacacacbRbVacacacacacacacacacacacacacacacacadadadadadadadadadadadadadadadadadadadadadadadahahahahahahahahahahahahahahahahahahahadabaa
+aaabacacacacacacacacacaccaceacacacacacacacacacacacacacacacacadadadadadadadadagagagagadagagagagadadadadadadahahahahahahahahahahahahahahahahahahahadabaa
+aaabacacacacacacacacacaccfcuacacacacacacacacacacacacacacacacadadadadadadadadagadadadadahahadagagagagagagagahahahahahahahahahahahahahahahahahahahadabaa
+aaabacacacacacacacacacaccacyacacacacacacacacacacacacacacacacadadadadadadadadagadadadadahahadadadadadadadadahahahahahahahahahahahahahahahahahahahadabaa
+aaabacacacacacacacacacacczcJcOacacacacacacacacacacacacacacacadadaeaeaeaeaeaeagaeaeaeaeahahaeaeaeaeaeaeaeaeahahahahahahahahahahahahahahahahahahahaeabaa
+aaabacacacacacacacacacaccWdbdqacacacacacacacacacacacacacacacadadaeaeaeabababaeabababaeahahaeaeaeaeaeaeaeaeahahahahahahahahahahahahahahahahahahahaeabaa
+aaabacacacacacacacacacacdPeeeBacacacacacacacacacacacacacacacadadaeaeaeabahahahahahabaeahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaeabaa
+aaabacacacacacacacacacacfffPacacacacacacacacacacacacacacacacadadaeaeaeabahahahahahabaeahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeaeaeababababahahabaeahahaeaeaeaeaeaeaeaeahahahahahahahahahahahahahahahahahahahaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeaeaeaeaeaeabahahabaeahahaeaeaeaeaeaeaeaeahahahahahahahahahahahahahahahahahahahaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeaeabababababahahababahahaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeahahahaeaeaeaeaeaeaeaeaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeaeabajajajajahahajajahahajajajajaeaeaeaeaeaeaeaeaeaeagagahahahagagaeaeaeaeaeaeaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeaeabajaOahahahaOahahahaOahahaOajaeaeaeaeagagagaiagagagaxaxaxaxaxagagaiagagagagaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeaeabajahbrbwbBahbrbwahahbrbwahajaeaeaeaeagaJaJaJaJaJaJaJfjalakaJaJaJaJaJaJaJagaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeaeabajahfkflahahfkflahaOfkflahajaeaeaeaeagaJamanaJakapaqarasatakauakaJavawaJagaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeaeabajfmahahaOahahahbBaOahahahajaeaeaeaeagaJfnayaJakazalaAalaBaCaDfoaJfnfpaJagaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaeaeabajahbrbwahahbrbwahahbrbwahajaeaeaeaeagaJaEaxaJakfofqaFaGaHfrakfsaJaxaIaJagaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacababababajahfkflahahfkflahaOfkflaOajbcbdfiftfuaJaxaxaJfsfvakakalfqakfwakaJavfxaJagaeabaa
+aaabacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacahahahahahfyfzaOahfAfBahahfCfDahahahahahahahaxfpfEaJakakakfoakakakakakaJfRaxaJaiaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadacacacacacacacacacacahahahahaOfFfGaOahfFfHaOahfIfHaOahahfJaObBaOaxfKaxaJakakaKaLaMaNaKfoakaJfnfLaJagaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadacacacacacacacacacababababajahbrbwahbBbrbwahahbrbwahajfiftbcbdaiaJfMaxaJfsfvaQaRaSaTaKakakaJfxavaJagaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadacacacacacacacacacabaeaeabajahfkflahahfkflahahfkflahajababababagaJaxaUaJaVakaKaWfqaXaKfraVaJaxaYaJaiaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadacacacacacacacacacabaeaeabajbBahfJaOahahahaOahahahahajabaeaeabagaJaxaZaVaVfrakbaakbbakfvaVaVaPavaJagaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadacacacacacacacacacabaeaeabajahbrbwahahbrbwahahbrbwahajabaeaeabaiaJaJaqaJaVfqakbebhbifoakaVaJbfaJaJagaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaeaeabajahfkflahaOfkflahahfkflahajabaeaeabagbgaJaJaJakfwakbjblbmfsfqakaJaJaJbkagaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaeaeabajaOahahahahahahahahahahahajabaeaeababagbgaJaJfoakakbnfgfhakakaqaJaJagaiaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaeaeabajajajajagajajajajajajajajajabaeaeaeababaiagaJaJakfvfrfoakakakaJaJagagaeaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaeaeabababababagababababababababababaeaeaeaeababagagaJaJaJaJfNaJaJaJaJaiagaeaeaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaeaeaeaeabaaabagabaeaeaeaeaeaeaeaeaeaeaeaeaeaeababagagaiaJbofvbpaJbqaiagaeaeaeaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaeaeaeaeabaaabagabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeabababagaJaJfOaJaJagaeaeaeaeaeaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadadababababababababababaaabagabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeabagagaJfvaJagagaeaeaeaeaeaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadababaaaaaaaaaaaaaaaaaaaaabagabaeaeaeaeaeaeaeaeaeaeaeaeabababababfSbtbtbtbubvbubtabababababaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaaaababababababababababagababababababababababaeaeaeababaJaJaJaJaJaJaJaJbuaJaJaJaJaJabababababaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaababbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxababaeaeabaJaJbybyaJbybybybubzbubAbyfTaJaJabaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbxbxbxbxbCbxbxbCbDbEbFbGbHbHbHbxbxbxbCabaeaeabaJbybybyaJfQbybIbububJbAbybybyaJabaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbxbCbCbxbxbKbCbLbEbMbHbNbObPbHbHbHbxbxabaeaeabaJbybQbyaVbybybububybybybybybyaJabaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbxbxbxbxbxbCbSbHbTbUbHfUbNbNbWbXbHbHbxabaeaeabaJbybybyaJbybybybybybybtbybybyaJabaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbxbxbKbxbCbYbZbHbNbNcbcccdbNbNfVbNbGbCabaeaeabaJaJbybyaJbybybybybybJbtbybyaJaJabaebxabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbCbCbxcgbCchcicjbGbNckbHclcmcncocpcqcrbCabaeaeababaJaJaJaJaJbJaJaJbJbzaJaJbtbtababaebxabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbCbxbxcsctbDfWcvcbbNcwcxbHbHbHbHbHbHbHbCabababababababababababababababfXfYabababababababaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbxbxbCbCcBcCcDbGcEcFcGcHbGbCcIbxcKbCbxaeaeaeaeaeaeaebxbxbxafafagagbxbxbxbxbxbxbxbxbxabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbxcLcMcNbHbHbHbHfZbCbCcPcQcIcEcRbCbCbxaeaeaeaeaeaeaeaebxbxagagafafbxbxbxbxbxbxbxbxbxabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbxbCcScTbNcUcVbGbCcXcYcZdagadcddbCbxbxaeaeaeaeaeaeaeaeaeaeaeaeaeagbxbxbxbxbxbxbxbxbxabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbCdedfdgbNbNbNdhbNbNbHdididjbHbHbHbHbxaeaeaeaeaeaeaeaeaeaeaeaeaedkbxbxbxbxbxcAbxdlbxabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabcgbCdmdndodpgbbNbNbGcwbNbHdrdsdtdubNdvdwbCaeaeaeaeaeaeaeaeaeaeaedxdybxbxdzdAbxbxbxbxdlaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbCbHbHdBdgdCbNdDbHdEdFdhbNbNbNbNdGbPdHbCaeaeaeaeaeaeaeaeaeaeaedIdJbxdKdLdMbxcAbxbxaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbCbHbHdNdObNdQbHbEbTbHdRbNdSbPdTdUdUbxaeaeaeaeaeaeaeaeaeaeaedVdWbxdKdXdYbxbxbxbxdZaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbxbCbHeaebecedbHgcbMbHefegbPbHdUdUbCbxaeaeaeaeaeaeaeaebxbxeheidWbxcAejekbxbxbxcAaeaeabaa
+aaabadadadadadadadadadadadadadadadadadadadadadadadadabaaabbxbxbxbCbHbHbHbHbHbFelelbFbGbHbHdUbCbCbCaeaeaeaeaeaeaeaebxbxbxembxbxbxbxeneobxbxbxepaeaeabaa
+aaababababababababababababababababababababababababababaaabbxbxbxbxbCbCbCbCbxbCbCbxbxbxbCbCbxaeaeaeaeaeaeaeaeaeaeabaebxbxbxbxbxbxbxbxbxbxbxbxepaeaeabaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeabaeaeaeaebxbxbxbxbxbxbxbxbxbxaeaeabaa
+aaababababababababababababababababababababababababababababababababababababababababababababababababababababababababaeaeeqeqeqbxbxbxeqeqeqeqaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaebxbxbxbxaeaeereserbxbxbxbxbxbxbxbxbxbxaeaeaeaeaeaeaeaebxbxbxbxbxbxbCbCbCbCbCbCeqeqbxbxbxbxeqeqeqeqaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaebxbxbxbxbxbxbxereterbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbCbCeueueueubCeqeqevbxbxbxbxeqeqeqaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaebxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbCeueueueueubCeqeqewbxbxbxbxbxbxbxaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeexbxbxbxbxbxbxbxbxdxeyeydxbCbCbCbCbCbCbCbCbCbCbCbCbCbCbCbCbCbCbCbCbCbCbCeueueueueuaeeqbxewbxbxezevbxbxbxaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaebxbxbCbCbCbCbCbCbCbCeyeybCbCeueueueueueueueueueueueueueueueueueueueueueueueueueubCaeeqbxewbxbxbxeAbxbxbxaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaebCbCbCeueueueueueueueyeyeueueueueueueueueueueueueueueueueueueueueueueueueueueueubCbCeqbxeEbxbxbxbxbxbxeqaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaebCbCeueueueueueueueueueyeyeueueueueueueueueueueueueueueueueueueueueueueueueueueueueubCeqbxewbxbxbxeAeCeqeqaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaebCeueueueueueueueueueueyeyeueueueueueueueueueueueueueueueueueueueueueueueueueueueueubCbxbxeDbxbxeoeEeqeqeqaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaebCbCeueueueueueueueueueyeFeueueueueueueueueueueueueubCbCbCbCbCbCbCbCeueubCbCbCbCbCbCbCbxbxeDbxbxbxbxbxbxeqaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaebCbCbCbCbCbCbCbCeueueyeyeueueubCbCbCbCbCbCbCbCbCbCbCbxbxbxbxbxbxbCbCbCbCbxbxbxbxbxbxbxeqeGbxbxbxbxbxbxbxaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaebxbxbxbxbxbCbCbCeyeybCbCbCbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxaeeqbxbxbxbxbxbxbxbxbxaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaebxbxbxbxbxbxbxdxeyeydxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxbxaeeqeqeHexbxbxeIbxbxaeaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaebxbxbxbxbxbxbxbxbxbxbxbxbxbxbxeJeJeJeJeJeJeJeJbxbxbxbxbxbxbxbxbxbxbxbxeKbxaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeexbxbxbxbxbxbxbxbxbxbxbxbxbxeLeJeMeNeyeyeOeyeJeJbxbxbxbxbxbxbxbxbxbxbxaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeePePeQeRbxbxbxbxbxbxbxeSeyeyeyeOeTeOeJeJbxbxbxbxbxbxbxbxbxbxbxaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeeUeVeWbxeXeYeYbxbxeJeZfafbeyeOeyeJeJbxbxbxbxbxbxbxaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeabaa
+aaabaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaefcfdeRfeeYeYeYbxeJeJeJeJeJeJeJeJbxbxbxbxbxaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeabaa
+aaabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

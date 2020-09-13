@@ -4,6 +4,8 @@
 	#include "geminus_neue-2.dmm"
 	#include "geminus_neue-3.dmm"
 	#include "geminus_neue-4.dmm"
+	#include "redspace_1.dmm"
+	#include "redspace_2.dmm"
 	#include "geminus_neue_defines.dm"
 	#include "geminus_neue_shuttles.dm"
 	#include "geminus_neue_areas.dm"
