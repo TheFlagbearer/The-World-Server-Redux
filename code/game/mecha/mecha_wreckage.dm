@@ -201,3 +201,23 @@
 /obj/effect/decal/mecha_wreckage/hoverpod
 	name = "Hover pod wreckage"
 	icon_state = "engineering_pod-broken"
+
+/obj/effect/decal/mecha_wreckage/arkana
+	name = "Arkana wreckage"
+	icon_state = "arkana-broken"
+
+	New()
+		..()
+		var/list/parts = list(
+									/obj/item/mecha_parts/part/arkana_torso,
+									/obj/item/mecha_parts/part/arkana_head,
+									/obj/item/mecha_parts/part/arkana_left_arm,
+									/obj/item/mecha_parts/part/arkana_right_arm,
+									/obj/item/mecha_parts/part/arkana_left_leg,
+									/obj/item/mecha_parts/part/arkana_right_leg)
+		for(var/i=0;i<2;i++)
+			if(!isemptylist(parts) && prob(40))
+				var/part = pick(parts)
+				welder_salvage += part
+				parts -= part
+		return

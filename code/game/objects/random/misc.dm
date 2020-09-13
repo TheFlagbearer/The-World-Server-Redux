@@ -147,14 +147,14 @@
 		prob(2);/obj/item/weapon/stock_parts/capacitor/adv,
 		prob(1);/obj/item/weapon/stock_parts/capacitor/super,
 		prob(3);/obj/item/weapon/stock_parts/manipulator,
-		prob(2);/obj/item/weapon/stock_parts/manipulator/nano,
-		prob(1);/obj/item/weapon/stock_parts/manipulator/pico,
+		prob(2);/obj/item/weapon/stock_parts/manipulator/super,
+		prob(1);/obj/item/weapon/stock_parts/manipulator/ultra,
 		prob(3);/obj/item/weapon/stock_parts/matter_bin,
 		prob(2);/obj/item/weapon/stock_parts/matter_bin/adv,
 		prob(1);/obj/item/weapon/stock_parts/matter_bin/super,
 		prob(3);/obj/item/weapon/stock_parts/scanning_module,
-		prob(2);/obj/item/weapon/stock_parts/scanning_module/adv,
-		prob(1);/obj/item/weapon/stock_parts/scanning_module/phasic)
+		prob(2);/obj/item/weapon/stock_parts/scanning_module/high_res,
+		prob(1);/obj/item/weapon/stock_parts/scanning_module/ultra)
 
 /obj/random/medical
 	name = "Random Medicine"

@@ -357,3 +357,7 @@
 		return
 	user.electrocute_act(shock_damage, src)
 	return chassis.dynattackby(W,user)
+
+//////////
+//Arcane//
+//////////

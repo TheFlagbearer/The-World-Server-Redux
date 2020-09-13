@@ -806,7 +806,7 @@ var/list/name_to_material
 	shard_type = SHARD_SHARD
 	tableslam_noise = 'sound/effects/Glasshit.ogg'
 	hardness = 100
-	stack_origin_tech = list(TECH_ARCANE = 1, TECH_MATERIAL = 6)
+	stack_origin_tech = list(TECH_ARCANE = 1, TECH_MATERIAL = 7)
 	sheet_singular_name = "gem"
 	sheet_plural_name = "gems"
 

@@ -22,8 +22,8 @@
 		/obj/item/weapon/stock_parts/micro_laser/high,
 		/obj/item/weapon/stock_parts/micro_laser/ultra,
 		/obj/item/weapon/stock_parts/manipulator/,
-		/obj/item/weapon/stock_parts/manipulator/nano,
-		/obj/item/weapon/stock_parts/manipulator/pico,
+		/obj/item/weapon/stock_parts/manipulator/super,
+		/obj/item/weapon/stock_parts/manipulator/ultra,
 		)
 	//Excessively long because it won't accept subtypes for some reason!
 

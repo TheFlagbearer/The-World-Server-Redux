@@ -11,7 +11,7 @@
 	id = "ripley_chassis"
 	build_path = /obj/item/mecha_parts/chassis/ripley
 	time = 10
-	materials = list(DEFAULT_WALL_MATERIAL = 15000)
+	materials = list("titanium" = 15000)
 
 /datum/design/item/mechfab/ripley/chassis/firefighter
 	name = "Firefigher Chassis"
@@ -23,35 +23,35 @@
 	id = "ripley_torso"
 	build_path = /obj/item/mecha_parts/part/ripley_torso
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 30000, "glass" = 11250)
+	materials = list("titanium" = 30000, "glass" = 11250)
 
 /datum/design/item/mechfab/ripley/left_arm
 	name = "Ripley Left Arm"
 	id = "ripley_left_arm"
 	build_path = /obj/item/mecha_parts/part/ripley_left_arm
 	time = 15
-	materials = list(DEFAULT_WALL_MATERIAL = 18750)
+	materials = list("titanium" = 18750)
 
 /datum/design/item/mechfab/ripley/right_arm
 	name = "Ripley Right Arm"
 	id = "ripley_right_arm"
 	build_path = /obj/item/mecha_parts/part/ripley_right_arm
 	time = 15
-	materials = list(DEFAULT_WALL_MATERIAL = 18750)
+	materials = list("titanium" = 18750)
 
 /datum/design/item/mechfab/ripley/left_leg
 	name = "Ripley Left Leg"
 	id = "ripley_left_leg"
 	build_path = /obj/item/mecha_parts/part/ripley_left_leg
 	time = 15
-	materials = list(DEFAULT_WALL_MATERIAL = 22500)
+	materials = list("titanium" = 22500)
 
 /datum/design/item/mechfab/ripley/right_leg
 	name = "Ripley Right Leg"
 	id = "ripley_right_leg"
 	build_path = /obj/item/mecha_parts/part/ripley_right_leg
 	time = 15
-	materials = list(DEFAULT_WALL_MATERIAL = 22500)
+	materials = list("titanium" = 22500)
 
 /datum/design/item/mechfab/odysseus
 	category = "Odysseus"
@@ -61,49 +61,49 @@
 	id = "odysseus_chassis"
 	build_path = /obj/item/mecha_parts/chassis/odysseus
 	time = 10
-	materials = list(DEFAULT_WALL_MATERIAL = 15000)
+	materials = list("titanium" = 15000)
 
 /datum/design/item/mechfab/odysseus/torso
 	name = "Odysseus Torso"
 	id = "odysseus_torso"
 	build_path = /obj/item/mecha_parts/part/odysseus_torso
 	time = 18
-	materials = list(DEFAULT_WALL_MATERIAL = 18750)
+	materials = list("titanium" = 18750)
 
 /datum/design/item/mechfab/odysseus/head
 	name = "Odysseus Head"
 	id = "odysseus_head"
 	build_path = /obj/item/mecha_parts/part/odysseus_head
 	time = 10
-	materials = list(DEFAULT_WALL_MATERIAL = 1500, "glass" = 7500)
+	materials = list("titanium" = 1500, "glass" = 7500)
 
 /datum/design/item/mechfab/odysseus/left_arm
 	name = "Odysseus Left Arm"
 	id = "odysseus_left_arm"
 	build_path = /obj/item/mecha_parts/part/odysseus_left_arm
 	time = 12
-	materials = list(DEFAULT_WALL_MATERIAL = 7500)
+	materials = list("titanium" = 7500)
 
 /datum/design/item/mechfab/odysseus/right_arm
 	name = "Odysseus Right Arm"
 	id = "odysseus_right_arm"
 	build_path = /obj/item/mecha_parts/part/odysseus_right_arm
 	time = 12
-	materials = list(DEFAULT_WALL_MATERIAL = 7500)
+	materials = list("titanium" = 7500)
 
 /datum/design/item/mechfab/odysseus/left_leg
 	name = "Odysseus Left Leg"
 	id = "odysseus_left_leg"
 	build_path = /obj/item/mecha_parts/part/odysseus_left_leg
 	time = 13
-	materials = list(DEFAULT_WALL_MATERIAL = 11250)
+	materials = list("titanium" = 11250)
 
 /datum/design/item/mechfab/odysseus/right_leg
 	name = "Odysseus Right Leg"
 	id = "odysseus_right_leg"
 	build_path = /obj/item/mecha_parts/part/odysseus_right_leg
 	time = 13
-	materials = list(DEFAULT_WALL_MATERIAL = 11250)
+	materials = list("titanium" = 11250)
 
 /datum/design/item/mechfab/gygax
 	category = "Gygax"
@@ -113,56 +113,56 @@
 	id = "gygax_chassis"
 	build_path = /obj/item/mecha_parts/chassis/gygax
 	time = 10
-	materials = list(DEFAULT_WALL_MATERIAL = 18750)
+	materials = list("titanium" = 18750)
 
 /datum/design/item/mechfab/gygax/torso
 	name = "Gygax Torso"
 	id = "gygax_torso"
 	build_path = /obj/item/mecha_parts/part/gygax_torso
 	time = 30
-	materials = list(DEFAULT_WALL_MATERIAL = 37500, "glass" = 15000)
+	materials = list("titanium" = 37500, "glass" = 15000)
 
 /datum/design/item/mechfab/gygax/head
 	name = "Gygax Head"
 	id = "gygax_head"
 	build_path = /obj/item/mecha_parts/part/gygax_head
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 15000, "glass" = 7500)
+	materials = list("titanium" = 15000, "glass" = 7500)
 
 /datum/design/item/mechfab/gygax/left_arm
 	name = "Gygax Left Arm"
 	id = "gygax_left_arm"
 	build_path = /obj/item/mecha_parts/part/gygax_left_arm
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 22500)
+	materials = list("titanium" = 22500)
 
 /datum/design/item/mechfab/gygax/right_arm
 	name = "Gygax Right Arm"
 	id = "gygax_right_arm"
 	build_path = /obj/item/mecha_parts/part/gygax_right_arm
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 22500)
+	materials = list("titanium" = 22500)
 
 /datum/design/item/mechfab/gygax/left_leg
 	name = "Gygax Left Leg"
 	id = "gygax_left_leg"
 	build_path = /obj/item/mecha_parts/part/gygax_left_leg
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 26250)
+	materials = list("titanium" = 26250)
 
 /datum/design/item/mechfab/gygax/right_leg
 	name = "Gygax Right Leg"
 	id = "gygax_right_leg"
 	build_path = /obj/item/mecha_parts/part/gygax_right_leg
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 26250)
+	materials = list("titanium" = 26250)
 
 /datum/design/item/mechfab/gygax/armour
 	name = "Gygax Armour Plates"
 	id = "gygax_armour"
 	build_path = /obj/item/mecha_parts/part/gygax_armour
 	time = 60
-	materials = list(DEFAULT_WALL_MATERIAL = 37500, "diamond" = 7500)
+	materials = list("titanium" = 37500, "diamond" = 7500)
 
 /datum/design/item/mechfab/durand
 	category = "Durand"
@@ -172,56 +172,175 @@
 	id = "durand_chassis"
 	build_path = /obj/item/mecha_parts/chassis/durand
 	time = 10
-	materials = list(DEFAULT_WALL_MATERIAL = 18750)
+	materials = list("titanium" = 18750)
 
 /datum/design/item/mechfab/durand/torso
 	name = "Durand Torso"
 	id = "durand_torso"
 	build_path = /obj/item/mecha_parts/part/durand_torso
 	time = 30
-	materials = list(DEFAULT_WALL_MATERIAL = 41250, "glass" = 15000, "silver" = 7500)
+	materials = list("titanium" = 41250, "glass" = 15000, "silver" = 7500)
 
 /datum/design/item/mechfab/durand/head
 	name = "Durand Head"
 	id = "durand_head"
 	build_path = /obj/item/mecha_parts/part/durand_head
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 18750, "glass" = 7500, "silver" = 2250)
+	materials = list("titanium" = 18750, "glass" = 7500, "silver" = 2250)
 
 /datum/design/item/mechfab/durand/left_arm
 	name = "Durand Left Arm"
 	id = "durand_left_arm"
 	build_path = /obj/item/mecha_parts/part/durand_left_arm
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 26250, "silver" = 2250)
+	materials = list("titanium" = 26250, "silver" = 2250)
 
 /datum/design/item/mechfab/durand/right_arm
 	name = "Durand Right Arm"
 	id = "durand_right_arm"
 	build_path = /obj/item/mecha_parts/part/durand_right_arm
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 26250, "silver" = 2250)
+	materials = list("titanium" = 26250, "silver" = 2250)
 
 /datum/design/item/mechfab/durand/left_leg
 	name = "Durand Left Leg"
 	id = "durand_left_leg"
 	build_path = /obj/item/mecha_parts/part/durand_left_leg
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 30000, "silver" = 2250)
+	materials = list("titanium" = 30000, "silver" = 2250)
 
 /datum/design/item/mechfab/durand/right_leg
 	name = "Durand Right Leg"
 	id = "durand_right_leg"
 	build_path = /obj/item/mecha_parts/part/durand_right_leg
 	time = 20
-	materials = list(DEFAULT_WALL_MATERIAL = 30000, "silver" = 2250)
+	materials = list("titanium" = 30000, "silver" = 2250)
 
 /datum/design/item/mechfab/durand/armour
 	name = "Durand Armour Plates"
 	id = "durand_armour"
 	build_path = /obj/item/mecha_parts/part/durand_armour
 	time = 60
-	materials = list(DEFAULT_WALL_MATERIAL = 37500, "uranium" = 7500)
+	materials = list("titanium" = 37500, "uranium" = 7500)
+
+/datum/design/item/mechfab/durand
+	category = "Durand"
+
+/datum/design/item/mechfab/durand/chassis
+	name = "Durand Chassis"
+	id = "durand_chassis"
+	build_path = /obj/item/mecha_parts/chassis/durand
+	time = 10
+	materials = list("titanium" = 18750)
+
+/datum/design/item/mechfab/durand/torso
+	name = "Durand Torso"
+	id = "durand_torso"
+	build_path = /obj/item/mecha_parts/part/durand_torso
+	time = 30
+	materials = list("titanium" = 41250, "glass" = 15000, "silver" = 7500)
+
+/datum/design/item/mechfab/durand/head
+	name = "Durand Head"
+	id = "durand_head"
+	build_path = /obj/item/mecha_parts/part/durand_head
+	time = 20
+	materials = list("titanium" = 18750, "glass" = 7500, "silver" = 2250)
+
+/datum/design/item/mechfab/durand/left_arm
+	name = "Durand Left Arm"
+	id = "durand_left_arm"
+	build_path = /obj/item/mecha_parts/part/durand_left_arm
+	time = 20
+	materials = list("titanium" = 26250, "silver" = 2250)
+
+/datum/design/item/mechfab/durand/right_arm
+	name = "Durand Right Arm"
+	id = "durand_right_arm"
+	build_path = /obj/item/mecha_parts/part/durand_right_arm
+	time = 20
+	materials = list("titanium" = 26250, "silver" = 2250)
+
+/datum/design/item/mechfab/durand/left_leg
+	name = "Durand Left Leg"
+	id = "durand_left_leg"
+	build_path = /obj/item/mecha_parts/part/durand_left_leg
+	time = 20
+	materials = list("titanium" = 30000, "silver" = 2250)
+
+/datum/design/item/mechfab/durand/right_leg
+	name = "Durand Right Leg"
+	id = "durand_right_leg"
+	build_path = /obj/item/mecha_parts/part/durand_right_leg
+	time = 20
+	materials = list("titanium" = 30000, "silver" = 2250)
+
+/datum/design/item/mechfab/durand/armour
+	name = "Durand Armour Plates"
+	id = "durand_armour"
+	build_path = /obj/item/mecha_parts/part/durand_armour
+	time = 60
+	materials = list("titanium" = 37500, "uranium" = 7500)
+
+/datum/design/item/mechfab/arkana
+	category = "Arkana"
+	req_tech = list(TECH_DATA = 5, TECH_MATERIAL = 6, TECH_MAGNET = 7, TECH_ARCANE = 6)
+
+/datum/design/item/mechfab/arkana/chassis
+	name = "Arkana Chassis"
+	id = "arkana_chassis"
+	build_path = /obj/item/mecha_parts/chassis/arkana
+	time = 10
+	materials = list("titanium" = 18750)
+
+/datum/design/item/mechfab/arkana/torso
+	name = "Arkana Torso"
+	id = "arkana_torso"
+	build_path = /obj/item/mecha_parts/part/arkana_torso
+	time = 30
+	materials = list("titanium" = 41250, "glass" = 15000, "silver" = 7500)
+
+/datum/design/item/mechfab/arkana/head
+	name = "Arkana Head"
+	id = "arkana_head"
+	build_path = /obj/item/mecha_parts/part/arkana_head
+	time = 20
+	materials = list("titanium" = 18750, "glass" = 7500, "silver" = 2250)
+
+/datum/design/item/mechfab/arkana/left_arm
+	name = "Arkana Left Arm"
+	id = "arkana_left_arm"
+	build_path = /obj/item/mecha_parts/part/arkana_left_arm
+	time = 20
+	materials = list("titanium" = 26250, "silver" = 2250)
+
+/datum/design/item/mechfab/arkana/right_arm
+	name = "Arkana Right Arm"
+	id = "arkana_right_arm"
+	build_path = /obj/item/mecha_parts/part/arkana_right_arm
+	time = 20
+	materials = list("titanium" = 26250, "silver" = 2250)
+
+/datum/design/item/mechfab/arkana/left_leg
+	name = "Arkana Left Leg"
+	id = "arkana_left_leg"
+	build_path = /obj/item/mecha_parts/part/arkana_left_leg
+	time = 20
+	materials = list("titanium" = 30000, "silver" = 2250)
+
+/datum/design/item/mechfab/arkana/right_leg
+	name = "Arkana Right Leg"
+	id = "arkana_right_leg"
+	build_path = /obj/item/mecha_parts/part/arkana_right_leg
+	time = 20
+	materials = list("titanium" = 30000, "silver" = 2250)
+
+/datum/design/item/mechfab/arkana/armour
+	name = "Arkana Shell"
+	id = "arkana_armour"
+	build_path = /obj/item/mecha_parts/part/arkana_armour
+	time = 60
+	materials = list("titanium" = 37500, "uranium" = 7500)
 
 /datum/design/item/mecha
 	build_type = MECHFAB

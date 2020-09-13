@@ -346,7 +346,7 @@
 					 		"backkey"=/obj/item/weapon/crowbar,
 					 		"desc"="Advanced scanner module is installed"),
 					 //10
-					 list("key"=/obj/item/weapon/stock_parts/scanning_module/adv,
+					 list("key"=/obj/item/weapon/stock_parts/scanning_module/high_res,
 					 		"backkey"=/obj/item/weapon/screwdriver,
 					 		"desc"="Targeting module is secured"),
 					 //11
@@ -487,7 +487,7 @@
 					holder.icon_state = "gygax12"
 				else
 					user.visible_message("[user] removes the advanced scanner module from [holder].", "You remove the advanced scanner module from [holder].")
-					new /obj/item/weapon/stock_parts/scanning_module/adv(get_turf(holder))
+					new /obj/item/weapon/stock_parts/scanning_module/high_res(get_turf(holder))
 					holder.icon_state = "gygax10"
 			if(8)
 				if(diff==FORWARD)
@@ -849,7 +849,7 @@
 					 		"backkey"=/obj/item/weapon/crowbar,
 					 		"desc"="Advanced scanner module is installed"),
 					 //10
-					 list("key"=/obj/item/weapon/stock_parts/scanning_module/adv,
+					 list("key"=/obj/item/weapon/stock_parts/scanning_module/high_res,
 					 		"backkey"=/obj/item/weapon/screwdriver,
 					 		"desc"="Targeting module is secured"),
 					 //11
@@ -991,7 +991,7 @@
 					holder.icon_state = "durand12"
 				else
 					user.visible_message("[user] removes the advanced scanner module from [holder].", "You remove the advanced scanner module from [holder].")
-					new /obj/item/weapon/stock_parts/scanning_module/adv(get_turf(holder))
+					new /obj/item/weapon/stock_parts/scanning_module/high_res(get_turf(holder))
 					holder.icon_state = "durand10"
 			if(8)
 				if(diff==FORWARD)
@@ -1292,4 +1292,282 @@
 	spawn_result()
 		..()
 		feedback_inc("mecha_odysseus_created",1)
+		return
+
+/datum/construction/mecha/arkana_chassis
+	steps = list(list("key"=/obj/item/mecha_parts/part/arkana_torso),//1
+					 list("key"=/obj/item/mecha_parts/part/arkana_head),//2
+					 list("key"=/obj/item/mecha_parts/part/arkana_left_arm),//3
+					 list("key"=/obj/item/mecha_parts/part/arkana_right_arm),//4
+					 list("key"=/obj/item/mecha_parts/part/arkana_left_leg),//5
+					 list("key"=/obj/item/mecha_parts/part/arkana_right_leg)//6
+					)
+
+	custom_action(step, atom/used_atom, mob/user)
+		user.visible_message("[user] has connected [used_atom] to [holder].", "You connect [used_atom] to [holder]")
+		holder.overlays += used_atom.icon_state+"+o"
+		qdel(used_atom)
+		return 1
+
+	action(atom/used_atom,mob/user as mob)
+		return check_all_steps(used_atom,user)
+
+	spawn_result()
+		var/obj/item/mecha_parts/chassis/const_holder = holder
+		const_holder.construct = new /datum/construction/reversible/mecha/arkana(const_holder)
+		const_holder.icon = 'icons/mecha/mech_construction.dmi'
+		const_holder.icon_state = "arkana0"
+		const_holder.density = 1
+		spawn()
+			qdel(src)
+		return
+
+
+/datum/construction/reversible/mecha/arkana
+	result = "/obj/mecha/combat/arkana"
+	steps = list(
+					//1
+					list("key"=/obj/item/weapon/weldingtool,
+							"backkey"=/obj/item/weapon/wrench,
+							"desc"="External armor is wrenched."),
+					//2
+					 list("key"=/obj/item/weapon/wrench,
+					 		"backkey"=/obj/item/weapon/crowbar,
+					 		"desc"="External armor is installed."),
+					 //3
+					 list("key"=/obj/item/mecha_parts/part/arkana_armour,
+					 		"backkey"=/obj/item/weapon/weldingtool,
+					 		"desc"="Internal armor is welded."),
+					 //4
+					 list("key"=/obj/item/weapon/weldingtool,
+					 		"backkey"=/obj/item/weapon/wrench,
+					 		"desc"="Internal armor is wrenched"),
+					 //5
+					 list("key"=/obj/item/weapon/wrench,
+					 		"backkey"=/obj/item/weapon/screwdriver,
+					 		"desc"="Internal armor is installed"),
+					 //6
+					 list("key"=/obj/item/stack/material/durasteel,
+					 	"backkey"=/obj/item/weapon/screwdriver,
+					 	"desc"="Void cell is secured"),
+					 //NUMBER
+					 list("key"=/obj/item/weapon/screwdriver,
+					 	"backkey"=/obj/item/weapon/crowbar,
+					 	"desc"="Void cell is inserted"),
+					 //ANOTHER NUMBER
+					 list("key"=/obj/item/weapon/cell/arcane,
+					 		"backkey"=/obj/item/weapon/screwdriver,
+					 		"desc"="Peripherals control module is secured"),
+					 //7
+					 list("key"=/obj/item/weapon/screwdriver,
+					 		"backkey"=/obj/item/weapon/crowbar,
+					 		"desc"="Peripherals control module is installed"),
+					 //8
+					 list("key"=/obj/item/weapon/circuitboard/mecha/arkana/peripherals,
+					 		"backkey"=/obj/item/weapon/screwdriver,
+					 		"desc"="Central control module is secured"),
+					 //9
+					 list("key"=/obj/item/weapon/screwdriver,
+					 		"backkey"=/obj/item/weapon/crowbar,
+					 		"desc"="Central control module is installed"),
+					 //10
+					 list("key"=/obj/item/weapon/circuitboard/mecha/arkana/main,
+					 		"backkey"=/obj/item/weapon/screwdriver,
+					 		"desc"="The wiring is adjusted"),
+					 //11
+					 list("key"=/obj/item/weapon/wirecutters,
+					 		"backkey"=/obj/item/weapon/screwdriver,
+					 		"desc"="The wiring is added"),
+					 //12
+					 list("key"=/obj/item/stack/cable_coil,
+					 		"backkey"=/obj/item/weapon/screwdriver,
+					 		"desc"="The hydraulic systems are active."),
+					 //13
+					 list("key"=/obj/item/weapon/screwdriver,
+					 		"backkey"=/obj/item/weapon/wrench,
+					 		"desc"="The hydraulic systems are connected."),
+					 //14
+					 list("key"=/obj/item/weapon/wrench,
+					 		"desc"="The hydraulic systems are disconnected.")
+					)
+
+	action(atom/used_atom,mob/user as mob)
+		return check_step(used_atom,user)
+
+	custom_action(index, diff, atom/used_atom, mob/user)
+		if(!..())
+			return 0
+
+		switch(index)
+			if(22)
+				user.visible_message("[user] connects [holder] hydraulic systems", "You connect [holder] hydraulic systems.")
+				holder.icon_state = "arkana1"
+			if(21)
+				if(diff==FORWARD)
+					user.visible_message("[user] activates [holder] hydraulic systems.", "You activate [holder] hydraulic systems.")
+					holder.icon_state = "arkana2"
+				else
+					user.visible_message("[user] disconnects [holder] hydraulic systems", "You disconnect [holder] hydraulic systems.")
+					holder.icon_state = "arkana0"
+			if(20)
+				if(diff==FORWARD)
+					user.visible_message("[user] adds the wiring to [holder].", "You add the wiring to [holder].")
+					holder.icon_state = "arkana3"
+				else
+					user.visible_message("[user] deactivates [holder] hydraulic systems.", "You deactivate [holder] hydraulic systems.")
+					holder.icon_state = "arkana1"
+			if(19)
+				if(diff==FORWARD)
+					user.visible_message("[user] adjusts the wiring of [holder].", "You adjust the wiring of [holder].")
+					holder.icon_state = "arkana4"
+				else
+					user.visible_message("[user] removes the wiring from [holder].", "You remove the wiring from [holder].")
+					var/obj/item/stack/cable_coil/coil = new /obj/item/stack/cable_coil(get_turf(holder))
+					coil.amount = 4
+					holder.icon_state = "arkana2"
+			if(18)
+				if(diff==FORWARD)
+					user.visible_message("[user] installs the central control module into [holder].", "You install the central computer mainboard into [holder].")
+					qdel(used_atom)
+					holder.icon_state = "arkana5"
+				else
+					user.visible_message("[user] disconnects the wiring of [holder].", "You disconnect the wiring of [holder].")
+					holder.icon_state = "arkana3"
+			if(17)
+				if(diff==FORWARD)
+					user.visible_message("[user] secures the mainboard.", "You secure the mainboard.")
+					holder.icon_state = "arkana6"
+				else
+					user.visible_message("[user] removes the central control module from [holder].", "You remove the central computer mainboard from [holder].")
+					new /obj/item/weapon/circuitboard/mecha/arkana/main(get_turf(holder))
+					holder.icon_state = "arkana4"
+			if(16)
+				if(diff==FORWARD)
+					user.visible_message("[user] installs the peripherals control module into [holder].", "You install the peripherals control module into [holder].")
+					qdel(used_atom)
+					holder.icon_state = "arkana7"
+				else
+					user.visible_message("[user] unfastens the mainboard.", "You unfasten the mainboard.")
+					holder.icon_state = "arkana5"
+			if(15)
+				if(diff==FORWARD)
+					user.visible_message("[user] secures the peripherals control module.", "You secure the peripherals control module.")
+					holder.icon_state = "arkana8"
+				else
+					user.visible_message("[user] removes the peripherals control module from [holder].", "You remove the peripherals control module from [holder].")
+					new /obj/item/weapon/circuitboard/mecha/arkana/peripherals(get_turf(holder))
+					holder.icon_state = "arkana6"
+			if(14)
+				if(diff==FORWARD)
+					user.visible_message("[user] installs the weapon control module into [holder].", "You install the weapon control module into [holder].")
+					qdel(used_atom)
+					holder.icon_state = "arkana9"
+				else
+					user.visible_message("[user] unfastens the peripherals control module.", "You unfasten the peripherals control module.")
+					holder.icon_state = "arkana7"
+			if(13)
+				if(diff==FORWARD)
+					user.visible_message("[user] secures the weapon control module.", "You secure the weapon control module.")
+					holder.icon_state = "arkana10"
+				else
+					user.visible_message("[user] removes the weapon control module from [holder].", "You remove the weapon control module from [holder].")
+					new /obj/item/weapon/circuitboard/mecha/arkana/targeting(get_turf(holder))
+					holder.icon_state = "arkana8"
+			if(12)
+				if(diff==FORWARD)
+					user.visible_message("[user] inserts the arcane scanning module into [holder].", "You insert the arcane scanning module into [holder].")
+					qdel(used_atom)
+					holder.icon_state = "arkana11"
+				else
+					user.visible_message("[user] unfastens the weapon control module.", "You unfasten the weapon control module.")
+					holder.icon_state = "arkana9"
+			if(11)
+				if(diff==FORWARD)
+					user.visible_message("[user] secures the arcane scanning module.", "You secure the arcane scanning module.")
+					holder.icon_state = "arkana12"
+				else
+					user.visible_message("[user] removes the advanced scanner module from [holder].", "You remove the advanced scanner module from [holder].")
+					new /obj/item/weapon/stock_parts/scanning_module/arcane(get_turf(holder))
+					holder.icon_state = "arkana10"
+			if(10)
+				if(diff==FORWARD)
+					user.visible_message("[user] insert the arcane capacitor into [holder].", "You insert the arcane capacitor into [holder].")
+					qdel(used_atom)
+					holder.icon_state = "arkana13"
+				else
+					user.visible_message("[user] unfastens the arcane scanning module.", "You unfasten the arcane scanning module.")
+					holder.icon_state = "arkana11"
+			if(9)
+				if(diff==FORWARD)
+					user.visible_message("[user] secures the arcane capacitor.", "You secure the arcane capacitor.")
+					holder.icon_state = "arkana14"
+				else
+					user.visible_message("[user] removes the arcane capacitor from [holder].", "You remove the arcane capacitor from [holder].")
+					new /obj/item/weapon/stock_parts/capacitor/arcane(get_turf(holder))
+					holder.icon_state = "arkana12"
+			if(8)
+				if(diff==FORWARD)
+					user.visible_message("[user] installs the void cell to [holder].", "You install the void cell to [holder].")
+					holder.icon_state = "arkana15"
+				else
+					user.visible_message("[user] remove the void cell from [holder].", "You remove the void cell from [holder].")
+					new /obj/item/weapon/cell/arcane(get_turf(holder))
+					holder.icon_state = "arkana13"
+			if(7)
+				if(diff==FORWARD)
+					user.visible_message("[user] secures the void cell to [holder].", "You secure the void cell to [holder].")
+					holder.icon_state = "arkana16"
+				else
+					user.visible_message("[user] unsecures the void cell from [holder].", "You unsecure the void cell from [holder].")
+					holder.icon_state = "arkana14"
+			if(6)
+				if(diff==FORWARD)
+					user.visible_message("[user] installs internal armor layer to [holder].", "You install internal armor layer to [holder].")
+					holder.icon_state = "arkana17"
+				else
+					user.visible_message("[user] unfastens the arcane capacitor.", "You unfasten the arcane capacitor.")
+					holder.icon_state = "arkana15"
+			if(5)
+				if(diff==FORWARD)
+					user.visible_message("[user] secures internal armor layer.", "You secure internal armor layer.")
+					holder.icon_state = "arkana18"
+				else
+					user.visible_message("[user] pries internal armor layer from [holder].", "You prie internal armor layer from [holder].")
+					var/obj/item/stack/material/durasteel/MS = new /obj/item/stack/material/durasteel(get_turf(holder))
+					MS.amount = 5
+					holder.icon_state = "arkana16"
+			if(4)
+				if(diff==FORWARD)
+					user.visible_message("[user] welds internal armor layer to [holder].", "You weld the internal armor layer to [holder].")
+					holder.icon_state = "arkana19"
+				else
+					user.visible_message("[user] unfastens the internal armor layer.", "You unfasten the internal armor layer.")
+					holder.icon_state = "arkana17"
+			if(3)
+				if(diff==FORWARD)
+					user.visible_message("[user] installs Arkana Shell to [holder].", "You install Arkana Shell to [holder].")
+					qdel(used_atom)
+					holder.icon_state = "arkana20"
+				else
+					user.visible_message("[user] cuts internal armor layer from [holder].", "You cut the internal armor layer from [holder].")
+					holder.icon_state = "arkana18"
+			if(2)
+				if(diff==FORWARD)
+					user.visible_message("[user] secures Arkana Shell.", "You secure Arkana Shell.")
+					holder.icon_state = "arkana21"
+				else
+					user.visible_message("[user] pries Arkana Arkana Shell from [holder].", "You pry Arkana Shell from [holder].")
+					new /obj/item/mecha_parts/part/arkana_armour(get_turf(holder))
+					holder.icon_state = "arkana19"
+			if(1)
+				if(diff==FORWARD)
+					user.visible_message("[user] welds Arkana Shell to [holder].", "You weld Arkana Shell to [holder].")
+				else
+					user.visible_message("[user] unfastens Arkana Shell.", "You unfasten Arkana Shell.")
+					holder.icon_state = "arkana20"
+		return 1
+
+	spawn_result()
+		..()
+		feedback_inc("mecha_arkana_created",1)
 		return

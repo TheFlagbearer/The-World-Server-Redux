@@ -9,7 +9,7 @@
 	board_type = new /datum/frame/frame_types/machine
 	origin_tech = list(TECH_POWER = 3, TECH_ENGINEERING = 4, TECH_MATERIAL = 4)
 	req_components = list(
-							/obj/item/weapon/stock_parts/manipulator/nano = 2,
+							/obj/item/weapon/stock_parts/manipulator/super = 2,
 							/obj/item/weapon/stock_parts/matter_bin/super = 2,
 							/obj/item/weapon/stock_parts/console_screen = 1,
 							/obj/item/stack/cable_coil = 5
@@ -31,7 +31,7 @@
 	board_type = new /datum/frame/frame_types/machine
 	origin_tech = list(TECH_BLUESPACE = 2, TECH_MAGNET = 4, TECH_POWER = 4)
 	req_components = list(
-							/obj/item/weapon/stock_parts/manipulator/nano = 2,
+							/obj/item/weapon/stock_parts/manipulator/super = 2,
 							/obj/item/weapon/stock_parts/micro_laser/high = 1,
 							/obj/item/weapon/stock_parts/console_screen = 1,
 							/obj/item/stack/cable_coil = 5
@@ -43,8 +43,8 @@
 	board_type = new /datum/frame/frame_types/machine
 	origin_tech = list(TECH_POWER = 3, TECH_ENGINEERING = 4, TECH_MATERIAL = 4)
 	req_components = list(
-							/obj/item/weapon/stock_parts/manipulator/nano = 2,
-							/obj/item/weapon/stock_parts/scanning_module/adv = 1,
+							/obj/item/weapon/stock_parts/manipulator/super = 2,
+							/obj/item/weapon/stock_parts/scanning_module/high_res = 1,
 							/obj/item/weapon/stock_parts/matter_bin/super = 1,
 							/obj/item/weapon/stock_parts/console_screen = 1,
 							/obj/item/stack/cable_coil = 5
@@ -56,7 +56,7 @@
 	board_type = new /datum/frame/frame_types/machine
 	origin_tech = list(TECH_POWER = 4, TECH_ENGINEERING = 4, TECH_MATERIAL = 5, TECH_MAGNET = 3)
 	req_components = list(
-							/obj/item/weapon/stock_parts/scanning_module/adv = 1,
+							/obj/item/weapon/stock_parts/scanning_module/high_res = 1,
 							/obj/item/weapon/stock_parts/micro_laser/high = 3,
 							/obj/item/weapon/stock_parts/capacitor/adv = 1
 							)

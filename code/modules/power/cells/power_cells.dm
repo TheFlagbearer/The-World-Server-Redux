@@ -65,6 +65,18 @@
 	..()
 	charge = 0
 
+/obj/item/weapon/cell/arcane
+	name = "void cell"
+	desc = "A crystalline power storage device that utilizes techniques derived from xenoarchaeological artefacts."
+	origin_tech = list(TECH_POWER = 7, TECH_ARCANE = 4)
+	icon_state = "arcanecell"
+	maxcharge = 50000
+	matter = list(DEFAULT_WALL_MATERIAL = 800, "glass" = 100)
+
+/obj/item/weapon/cell/arcane/empty/New()
+	..()
+	charge = 0
+
 /obj/item/weapon/cell/infinite
 	name = "infinite-capacity power cell!"
 	icon_state = "icell"
