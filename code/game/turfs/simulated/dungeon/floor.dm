@@ -16,5 +16,10 @@
 	desc = "Old stagnant water is pooled beneath the grate."
 	icon_state = "grate_full"
 
+/turf/simulated/floor/dungeon/stairs
+	name = "old stairs"
+	desc = "These look stable enough to walk on."
+	icon_state = "stairs"
+
 /turf/simulated/floor/dungeon/ex_act()
 	return

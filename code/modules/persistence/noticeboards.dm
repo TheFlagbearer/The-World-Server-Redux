@@ -234,3 +234,41 @@
 	P.stamped = list(/obj/item/weapon/stamp/rd)
 	P.overlays = list("paper_stamped_rd")
 	src.contents += P
+
+/obj/structure/noticeboard/courier
+	notices = 6
+	icon_state = "nboard05"
+
+/obj/structure/noticeboard/courier/New()
+	var/obj/item/weapon/paper/P = new()
+	P.name = "Affirming Note"
+	P.info = "Mount Aquilo sure is a sight to see when the weather's good. If life can spring up here, there's nothing that can stop us! Keep on keeping on, Courier!<br> - Sam"
+	src.contents += P
+
+	P = new()
+	P.name = "RE: powary herd"
+	P.info = "I've been tracking a huge herd of powaries heading this way. If you can pick some off, I'm sure Kant would appreciate the extra rations. The attendant looked pretty thin last month.<br>- M.M"
+	src.contents += P
+
+	P = new()
+	P.name = "WARNING: Bandits!"
+	P.info = "My power sled got stopped by some idiots 3 km north of here! Watch your backs and make sure you DON'T LOSE your courier keycards!<br>- Abby"
+	src.contents += P
+
+	P = new()
+	P.name = "Glace Gria Gumbo Recipe"
+	P.info = "Ingredients<br>4 tbsp butter, 1/4 cup flour, 1 small purple onion, 1 bell pepper, chopped, 3-4 sliced frostshrooms (get the big ones!), 2 cloves minced garlic, 4 c. diyaab broth, black pepper, \
+	salt, bay leaf, 12 oz. powary meat. Melt your butter and add the flour. Stir it for about ten minutes. Make sure your rocket stove's set to around medium heat. Add the vegetables, then add in your meats. \
+	Then the broth and drop the heat to low. Keeps you warm and I'll be damned if it don't taste good! Keep on keeping on!<br> - Maxwell"
+	src.contents += P
+
+	P = new()
+	P.name = "The caves"
+	P.info = "If anyone's in the area, I found a hatch near that discoupled engine south east of here. I couldn't get it open but if you've got the time to investigate, I thought I'd let you know.<br> - Morgan"
+	src.contents += P
+
+	P = new()
+	P.name = "Feros pet?"
+	P.info = "Anyone ever been successful at taming a feros? The last one I came across didn't attack but the moment I looked away the little bastard pounced on me! I'd love to bring one by Firehaven \
+	for the kids to see. Let me know. I'll be back here next month.<br> - Roget"
+	src.contents += P

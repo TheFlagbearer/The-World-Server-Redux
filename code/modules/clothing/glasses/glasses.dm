@@ -556,3 +556,30 @@ BLIND     // can't see anything
 	off_state = "holovisor"
 	toggleable = 1
 	action_button_name = "Toggle Holovisor"
+
+/obj/item/clothing/glasses/arcane
+	name = "arcane resonance goggles"
+	desc = "A set of goggles that can detect extradimensional objects and entities."
+	icon_state = "arcane"
+	item_state_slots = list(slot_r_hand_str = "glasses", slot_l_hand_str = "glasses")
+	action_button_name = "Toggle Goggles"
+	origin_tech = list(TECH_MAGNET = 2, TECH_ENGINEERING = 3, TECH_BLUESPACE = 4, TECH_ARCANE = 2)
+	toggleable = 1
+	price_tag = 15000
+
+/obj/item/clothing/glasses/arcane/New()
+	..()
+	overlay = global_hud.arcane
+
+/obj/item/clothing/glasses/arcane/attack_self(mob/user)
+	if(toggleable)
+		if(active)
+			active = 0
+			src.see_invisible = SEE_INVISIBLE_LIVING
+			to_chat(usr, "You deactivate the optical matrix on the [src].")
+		else
+			active = 1
+			to_chat(usr, "You activate the optical matrix on the [src].")
+			src.see_invisible = SEE_INVISIBLE_CULT
+		user.update_action_buttons()
+		user.recalculate_vis()
