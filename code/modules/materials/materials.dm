@@ -800,6 +800,10 @@ var/list/name_to_material
 	use_name = "void opal"
 	stack_type = /obj/item/stack/material/void_opal
 	flags = MATERIAL_UNMELTABLE
+	icon_colour = "#191919"
+	destruction_desc = "shatters"
+	opacity = 1
+	shard_can_repair = 0
 	cut_delay = 60
 	reflectivity = 0
 	conductivity = 1
