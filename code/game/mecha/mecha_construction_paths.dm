@@ -346,7 +346,7 @@
 					 		"backkey"=/obj/item/weapon/crowbar,
 					 		"desc"="Advanced scanner module is installed"),
 					 //10
-					 list("key"=/obj/item/weapon/stock_parts/scanning_module/adv,
+					 list("key"=/obj/item/weapon/stock_parts/scanning_module/high_res,
 					 		"backkey"=/obj/item/weapon/screwdriver,
 					 		"desc"="Targeting module is secured"),
 					 //11
@@ -487,7 +487,7 @@
 					holder.icon_state = "gygax12"
 				else
 					user.visible_message("[user] removes the advanced scanner module from [holder].", "You remove the advanced scanner module from [holder].")
-					new /obj/item/weapon/stock_parts/scanning_module/adv(get_turf(holder))
+					new /obj/item/weapon/stock_parts/scanning_module/high_res(get_turf(holder))
 					holder.icon_state = "gygax10"
 			if(8)
 				if(diff==FORWARD)
@@ -849,7 +849,7 @@
 					 		"backkey"=/obj/item/weapon/crowbar,
 					 		"desc"="Advanced scanner module is installed"),
 					 //10
-					 list("key"=/obj/item/weapon/stock_parts/scanning_module/adv,
+					 list("key"=/obj/item/weapon/stock_parts/scanning_module/high_res,
 					 		"backkey"=/obj/item/weapon/screwdriver,
 					 		"desc"="Targeting module is secured"),
 					 //11
@@ -991,7 +991,7 @@
 					holder.icon_state = "durand12"
 				else
 					user.visible_message("[user] removes the advanced scanner module from [holder].", "You remove the advanced scanner module from [holder].")
-					new /obj/item/weapon/stock_parts/scanning_module/adv(get_turf(holder))
+					new /obj/item/weapon/stock_parts/scanning_module/high_res(get_turf(holder))
 					holder.icon_state = "durand10"
 			if(8)
 				if(diff==FORWARD)

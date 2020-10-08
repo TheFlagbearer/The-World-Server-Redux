@@ -126,14 +126,14 @@ other types of metals and chemistry for reagents).
 	id = "nano_mani"
 	req_tech = list(TECH_MATERIAL = 3, TECH_DATA = 2)
 	materials = list(DEFAULT_WALL_MATERIAL = 30, "copper" = 10, "silver" = 10)
-	build_path = /obj/item/weapon/stock_parts/manipulator/nano
+	build_path = /obj/item/weapon/stock_parts/manipulator/super
 	sort_string = "CAABB"
 
 /datum/design/item/stock_part/pico_mani
 	id = "pico_mani"
 	req_tech = list(TECH_MATERIAL = 5, TECH_DATA = 2)
 	materials = list(DEFAULT_WALL_MATERIAL = 30, "silver" = 10, "gold" = 10)
-	build_path = /obj/item/weapon/stock_parts/manipulator/pico
+	build_path = /obj/item/weapon/stock_parts/manipulator/ultra
 	sort_string = "CAABC"
 
 /datum/design/item/stock_part/basic_matter_bin
@@ -189,14 +189,14 @@ other types of metals and chemistry for reagents).
 	id = "adv_sensor"
 	req_tech = list(TECH_MAGNET = 3)
 	materials = list(DEFAULT_WALL_MATERIAL = 50, "glass" = 20, "silver" = 10)
-	build_path = /obj/item/weapon/stock_parts/scanning_module/adv
+	build_path = /obj/item/weapon/stock_parts/scanning_module/high_res
 	sort_string = "CAAEB"
 
 /datum/design/item/stock_part/phasic_sensor
 	id = "phasic_sensor"
 	req_tech = list(TECH_MAGNET = 5, TECH_MATERIAL = 3)
 	materials = list(DEFAULT_WALL_MATERIAL = 50, "glass" = 20, "gold" = 10)
-	build_path = /obj/item/weapon/stock_parts/scanning_module/phasic
+	build_path = /obj/item/weapon/stock_parts/scanning_module/ultra
 	sort_string = "CAAEC"
 
 /datum/design/item/stock_part/RPED
