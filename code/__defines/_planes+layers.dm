@@ -116,6 +116,8 @@ What is the naming convention for planes or layers?
 #define PLANE_GHOSTS			10 //Spooooooooky ghooooooosts
 #define PLANE_AI_EYE			11 //The AI eye lives here
 
+#define PLANE_ARCANE 			-20 //Arcane stuff exists on this place.
+
 // "Character HUDs", aka HUDs, but not the game's UI. Things like medhuds. I know Planes say they must be intergers, but it's lies.
 #define PLANE_CH_STATUS			15 //Status icon
 #define PLANE_CH_HEALTH			16 //Health icon

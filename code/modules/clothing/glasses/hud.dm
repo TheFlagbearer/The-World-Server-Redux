@@ -41,3 +41,19 @@
 	item_state_slots = list(slot_r_hand_str = "sunglasses", slot_l_hand_str = "sunglasses")
 	vision_flags = SEE_MOBS
 	see_invisible = SEE_INVISIBLE_NOLIGHTING
+
+/obj/item/clothing/glasses/arcane
+	name = "arcane resonance goggles"
+	desc = "A set of goggles that can detect extradimensional objects and entities."
+	icon_state = "arcane"
+	off_state = "arcane"
+	item_state_slots = list(slot_r_hand_str = "glasses", slot_l_hand_str = "glasses")
+	action_button_name = "Toggle Goggles"
+	enables_planes = list(VIS_ARCANE)
+	origin_tech = list(TECH_MAGNET = 2, TECH_ENGINEERING = 3, TECH_BLUESPACE = 4, TECH_ARCANE = 2)
+	toggleable = 1
+	price_tag = 15000
+
+/obj/item/clothing/glasses/arcane/New()
+	..()
+	overlay = global_hud.arcane
