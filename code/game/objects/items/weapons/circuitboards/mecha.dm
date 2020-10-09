@@ -79,5 +79,20 @@
 		name = T_BOARD_MECHA("Odysseus central control")
 		icon_state = "mainboard"
 
+/obj/item/weapon/circuitboard/mecha/arkana
+		origin_tech = list(TECH_DATA = 5, TECH_COMBAT = 5, TECH_ARCANE = 6)
+
+/obj/item/weapon/circuitboard/mecha/arkana/main
+		name = T_BOARD_MECHA("Arkana central control")
+		icon_state = "mainboard"
+
+/obj/item/weapon/circuitboard/mecha/arkana/peripherals
+		name = T_BOARD_MECHA("Arkana peripherals control")
+		icon_state = "mcontroller"
+
+/obj/item/weapon/circuitboard/mecha/arkana/targeting
+		name = T_BOARD_MECHA("Arkana weapon control and targeting")
+		icon_state = "mcontroller"
+
 //Undef the macro, shouldn't be needed anywhere else
 #undef T_BOARD_MECHA

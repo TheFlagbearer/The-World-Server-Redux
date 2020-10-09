@@ -294,3 +294,54 @@
 	origin_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 3)
 	construction_time = 200
 	construction_cost = list(DEFAULT_WALL_MATERIAL=15000)*/
+
+///////// Arkana
+
+
+/obj/item/mecha_parts/chassis/arkana
+	name = "Arkana Chassis"
+	origin_tech = list(TECH_MATERIAL = 8, TECH_ARCANE = 6)
+
+	New()
+		..()
+		construct = new /datum/construction/mecha/arkana_chassis(src)
+
+/obj/item/mecha_parts/part/arkana_head
+	name="Arkana Head"
+	icon_state = "arkana_head"
+	origin_tech = list(TECH_DATA = 5, TECH_MATERIAL = 6, TECH_MAGNET = 7, TECH_ARCANE = 6)
+
+/obj/item/mecha_parts/part/arkana_torso
+	name="Arkana Torso"
+	desc="A torso part of Arkana. Contains power unit, processing core and life support systems."
+	icon_state = "arkana_harness"
+	origin_tech = list(TECH_DATA = 6, TECH_MATERIAL = 8, TECH_BLUESPACE = 7, TECH_POWER = 7, TECH_ARCANE = 6)
+
+/obj/item/mecha_parts/part/arkana_left_arm
+	name="Arkana Left Arm"
+	desc="An Arkana left arm. Data and power sockets are compatible with most exosuit tools."
+	icon_state = "arkana_l_arm"
+	origin_tech = list(TECH_DATA = 5, TECH_MATERIAL = 6, TECH_MAGNET = 7, TECH_ARCANE = 6)
+
+/obj/item/mecha_parts/part/arkana_right_arm
+	name="Arkana Right Arm"
+	desc="An Arkana right arm. Data and power sockets are compatible with most exosuit tools."
+	icon_state = "arkana_r_arm"
+	origin_tech = list(TECH_DATA = 5, TECH_MATERIAL = 6, TECH_MAGNET = 7, TECH_ARCANE = 6)
+
+/obj/item/mecha_parts/part/arkana_left_leg
+	name="Arkana Left Leg"
+	desc="An Arkana left leg. Contains somewhat complex servodrives and balance maintaining systems."
+	icon_state = "arkana_l_leg"
+	origin_tech = list(TECH_DATA = 5, TECH_MATERIAL = 6, TECH_MAGNET = 7, TECH_ARCANE = 6)
+
+/obj/item/mecha_parts/part/arkana_right_leg
+	name="Arkana Right Leg"
+	desc="A Arkana right leg. Contains somewhat complex servodrives and balance maintaining systems."
+	icon_state = "arkana_r_leg"
+	origin_tech = list(TECH_DATA = 5, TECH_MATERIAL = 6, TECH_MAGNET = 7, TECH_ARCANE = 6)
+
+/obj/item/mecha_parts/part/arkana_armour
+	name="Arkana Shell"
+	icon_state = "arkana_armour"
+	origin_tech = list(TECH_DATA = 5, TECH_MATERIAL = 6, TECH_MAGNET = 7, TECH_ARCANE = 6)
