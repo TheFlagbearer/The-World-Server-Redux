@@ -55,7 +55,7 @@
 	desc = "How <i>shocked</i> you must be, to see this text. You must have <i>lightning</i> reflexes. \
 	The humor in this description is just so <i>electrifying</i>."
 	icon = 'icons/effects/96x256.dmi'
-	icon_state = "lightning_strike"
+	icon_state = "new_lightning"
 	plane = PLANE_LIGHTING_ABOVE
 	time_to_die = 1 SECOND
 	pixel_x = -32
@@ -64,3 +64,9 @@
 	icon_state += "[rand(1,2)]" // To have two variants of lightning sprites.
 	animate(src, alpha = 0, time = time_to_die - 1)
 	. = ..()
+
+/obj/effect/temporary_effect/lightning_strike/red
+	icon_state = "new_lightning_red"
+
+/obj/effect/temporary_effect/lightning_strike/blue
+	icon_state = "new_lightning_blue"

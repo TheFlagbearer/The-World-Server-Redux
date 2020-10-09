@@ -12,7 +12,10 @@
 		return
 	var/fake_lightning = result == "Yes (Cosmetic)"
 
-	lightning_strike(get_turf(usr), fake_lightning)
+	var/color_request = alert(src, "What color do you want the lightning to be?", "Lightning Color", "White", "Red", "Blue")
+
+	lightning_strike(get_turf(usr), fake_lightning, color_request)
+
 	log_and_message_admins("[key_name(src)] has caused [fake_lightning ? "cosmetic":"harmful"] lightning to strike at their position ([src.mob.x], [src.mob.y], [src.mob.z]). \
 	(<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[src.mob.x];Y=[src.mob.y];Z=[src.mob.z]'>JMP</a>)")
 
@@ -23,7 +26,7 @@
 // The real lightning proc.
 // This is global until I can figure out a better place for it.
 // T is the turf that is being struck. If cosmetic is true, the lightning won't actually hurt anything.
-/proc/lightning_strike(turf/T, cosmetic = FALSE)
+/proc/lightning_strike(turf/T, cosmetic = FALSE, color)
 	// First, visuals.
 
 	// Do a lightning flash for the whole planet, if the turf belongs to a planet.
@@ -55,7 +58,15 @@
 		T = ground.loc
 
 	// Now make the lightning strike sprite. It will fade and delete itself in a second.
-	new /obj/effect/temporary_effect/lightning_strike(T)
+	switch(color)
+		if("White")
+			new /obj/effect/temporary_effect/lightning_strike(T)
+		if("Red")
+			new /obj/effect/temporary_effect/lightning_strike/red(T)
+		if("Blue")
+			new /obj/effect/temporary_effect/lightning_strike/blue(T)
+		else//in case of admeme mistake - default to white
+			new /obj/effect/temporary_effect/lightning_strike(T)
 
 	// For those close up.
 	playsound(T, 'sound/effects/lightningbolt.ogg', 100, 1)
