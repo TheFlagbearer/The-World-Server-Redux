@@ -205,6 +205,7 @@
 			if(LAZYLEN(new_item.origin_tech))
 				r_box.origin_tech = new_item.origin_tech
 			new_item.forceMove(r_box)
+			r_box.name = "redemption box ([new_item.name])"
 		else
 			new_item.loc = loc
 		if(mat_efficiency != 1) // No matter out of nowhere
