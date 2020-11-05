@@ -7,7 +7,7 @@
 	idle_power_usage = 30
 	active_power_usage = 5000
 
-	var/max_material_storage = 250000
+	var/max_material_storage = 230000
 
 	var/list/datum/design/queue = list()
 	var/progress = 0
@@ -15,7 +15,7 @@
 	var/mat_efficiency = 1
 	var/speed = 1
 
-	materials = list(DEFAULT_WALL_MATERIAL = 0, "glass" = 0, "plastic" = 0, "gold" = 0, "silver" = 0, "osmium" = 0, "phoron" = 0, "uranium" = 0, "diamond" = 0, "iron" = 0, "copper" = 0, "aluminium" = 0, "titanium" = 0, "void opal" = 0)
+	materials = list(DEFAULT_WALL_MATERIAL = 0, "glass" = 0, "plastic" = 0, "gold" = 0, "silver" = 0, "osmium" = 0, "phoron" = 0, "uranium" = 0, "diamond" = 0, "iron" = 0, "copper" = 0, "aluminium" = 0, "titanium" = 0)
 
 /obj/machinery/r_n_d/protolathe/New()
 	..()
@@ -227,14 +227,6 @@
 			mattype = /obj/item/stack/material/phoron
 		if("uranium")
 			mattype = /obj/item/stack/material/uranium
-		if("copper")
-			mattype = /obj/item/stack/material/copper
-		if("aluminium")
-			mattype = /obj/item/stack/material/aluminium
-		if("titanium")
-			mattype = /obj/item/stack/material/titanium
-		if("void opal")
-			mattype = /obj/item/stack/material/void_opal
 		else
 			return
 	var/obj/item/stack/material/S = new mattype(loc)
