@@ -64,7 +64,8 @@
 #define MATERIAL_EBONY                   "ebony"
 #define MATERIAL_WALNUT                  "walnut"
 #define MATERIAL_BAMBOO                  "bamboo"
-#define MATERIAL_YEW				 "yew"
+#define MATERIAL_YEW				 	 "yew"
+#define MATERIAL_BLOODWOOD				 "bloodwood"
 
 #define DEFAULT_WALL_MATERIAL      MATERIAL_STEEL
 #define DEFAULT_FURNITURE_MATERIAL MATERIAL_ALUMINIUM

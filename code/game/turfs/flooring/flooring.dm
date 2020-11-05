@@ -578,3 +578,16 @@ var/list/flooring_types
 /decl/flooring/padded
 	icon = 'icons/turf/flooring/decorative.dmi'
 	icon_base = "padded"
+
+/decl/flooring/redspace
+	icon = 'icons/turf/redspace.dmi'
+	icon_base = "basalt0"
+
+/decl/flooring/redspace/lava
+	icon_base = "lava"
+
+/decl/flooring/redspace/grass
+	icon_base = "grass2"
+
+/decl/flooring/redspace/water
+	icon_base = "water"

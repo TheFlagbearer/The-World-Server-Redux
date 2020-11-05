@@ -27,11 +27,11 @@
 	icon_state = "lizard"
 
 /obj/effect/decal/remains/unathi
-	desc = "They look like Unathi remains. Pointy."
+	desc = "They look like human remains. Oddly, the skull resembles that of some sort of lizard.."
 	icon_state = "remainsunathi"
 
 /obj/effect/decal/remains/tajaran
-	desc = "They look like Tajaran remains. They're surprisingly small."
+	desc = "They look like human remains. The only odd thing about them is that the skull resembles that of a cat.."
 	icon_state = "remainstajaran"
 
 /obj/effect/decal/remains/ribcage

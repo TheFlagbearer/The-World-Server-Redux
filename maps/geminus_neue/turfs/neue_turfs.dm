@@ -166,8 +166,37 @@
 	. = ..()
 
 /turf/simulated/floor/redspace
+	name = "rocky ground"
 	icon = 'icons/turf/redspace.dmi'
-	icon_state = "basalt"
+	icon_state = "basalt0"
 	oxygen = MOLES_O2POLLUX
 	nitrogen = MOLES_N2POLLUX
 	temperature = 430
+	initial_flooring = /decl/flooring/redspace
+
+/turf/simulated/floor/redspace/rocky
+	desc = "Nothing but rocks and more rocks for miles..."
+
+/turf/simulated/floor/redspace/rocky/initialize()
+	icon_state = "basalt[rand(1,13)]"
+	if(icon_state == "basalt13")
+		set_light(2, 4, "#FC9B54")
+		density = 1
+	.=..()
+
+/turf/simulated/floor/redspace/lava
+	name = "Lava"
+	desc = "The floor is lava!"
+	icon_state = "lava"
+	movement_cost = 4
+	density = 1
+	initial_flooring = /decl/flooring/redspace/lava
+
+/turf/simulated/floor/redspace/lava/initialize()
+	set_light(2, 4, "#FC9B54")
+
+/turf/simulated/floor/redspace/grass
+	name = "alien grass"
+	desc = "The grass moves on its own, even when the wind has stopped."
+	icon_state = "grass2"
+	initial_flooring = /decl/flooring/redspace/grass

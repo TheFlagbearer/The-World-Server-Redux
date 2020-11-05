@@ -78,16 +78,4 @@ var/datum/lore/numbers_station/numbers = new/datum/lore/numbers_station
 				     "I still hear the beating beneath the floorboards. Skittering all the damn time.",
 				     "You have to do some digging. Dig deep in its belly and pull it out. Ah, there you go. Just like that.",
 				     "Uranium fever got you down? Rave!"))
-/*		if(5)//emotions
-			msg(pick("!makes a sound but it is obscured by heavy static.",
-					 "!emits a heavy droning noise.",
-					 "!weeps.",
-					 "!screams!",
-					 "!moans in pain.",
-					 "!growls.",
-					 "!breathes heavily.",
-					 "!coughs violently and retches. You hear thick, wet thuds on the ground.",
-					 "!laughs. You hear the sound of snapping bones.",
-					 "!broadcasts the sound of heavy thudding footsteps. Heavy wind can be heard in the background."))
-*/
 	return

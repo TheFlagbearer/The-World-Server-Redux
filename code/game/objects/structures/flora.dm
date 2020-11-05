@@ -380,3 +380,26 @@
 /obj/structure/flora/sif/eyes/initialize()
 	icon_state = "[initial(icon_state)][rand(1,3)]"
 	. = ..()
+
+/obj/structure/flora/redspace
+	name = "redspace flora"
+	desc= "generic desc"
+	icon = 'icons/obj/flora/redspaceflora.dmi'
+
+/obj/structure/flora/redspace/bush
+	name = "alien bush"
+	desc = "The leaves move even when there is no breeze."
+	icon_state = "bush"
+
+/obj/structure/flora/redspace/bush/initialize()
+	icon_state = "bush[rand(1,3)]"
+	. = ..()
+
+/obj/structure/flora/redspace/moss
+	name = "alien moss-covered rocks"
+	desc = "The moss on these rocks writhes as if it harbors some sort of intelligence."
+	icon_state = "rocks"
+
+/obj/structure/flora/redspace/moss/initialize()
+	icon_state = "rocks[rand(1,3)]"
+	. = ..()
