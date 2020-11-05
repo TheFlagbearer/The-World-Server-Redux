@@ -330,6 +330,17 @@
 	default_type = MAT_SIFWOOD
 	stack_color = "#0099cc"
 
+/obj/item/stack/material/wood/bloodwood
+	name = "bloodwood plank"
+	default_type = MAT_BLOODWOOD
+	stack_color = "#604261"
+
+/obj/item/stack/material/wood/bloodwood/ten
+	amount = 10
+
+/obj/item/stack/material/wood/bloodwood/fifty
+	amount = 50
+
 /obj/item/stack/material/log
 	name = "log"
 	icon_state = "sheet-log"
@@ -372,6 +383,11 @@
 	else
 		return ..()
 
+/obj/item/stack/material/log/bloodwood
+	name = "alien log"
+	default_type = MAT_BLOODWOODLOG
+	stack_color = "#604261"
+	plank_type = /obj/item/stack/material/wood/bloodwood
 
 /obj/item/stack/material/cardboard
 	name = "cardboard"

@@ -41,3 +41,20 @@
 		icon_state = "key1"
 	else
 		icon_state = "key0"
+
+/obj/structure/prop/dead_god
+	name = "ancient machine"
+	desc = "The hulking remains of some ancient machine."
+	icon = 'icons/obj/props/deadgod.dmi'
+	icon_state = "dead"
+	bound_width = 416
+	bound_height = 64
+	pixel_y = -10
+	can_speak = 1
+	unacidable = 1
+	anchored = 1
+	density = 1
+
+/obj/structure/prop/dead_god/attack_hand(var/mob/user)
+	to_chat(user, span("notice", "It is cool to the touch."))
+	return

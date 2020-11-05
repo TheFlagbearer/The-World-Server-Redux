@@ -125,3 +125,13 @@
 				and high strength, various species of bamboo area common building materials in developing societies."
 	icon_colour = WOOD_COLOR_PALE2
 	stack_type = /obj/item/stack/material/wood/bamboo
+
+/material/wood/bloodwood
+	name = MATERIAL_BLOODWOOD
+	hardness = 20
+	explosion_resistance = 3
+	stack_origin_tech = list(TECH_MATERIAL = 2, TECH_BIO = 2, TECH_ARCANE = 1)
+	melting_point = T0C+500
+	ignition_point = T0C+488
+	icon_colour = "#604261"
+	stack_type = /obj/item/stack/material/wood/bloodwood

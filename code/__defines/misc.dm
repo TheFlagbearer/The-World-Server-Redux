@@ -129,6 +129,8 @@
 #define MAT_LOG				"log"
 #define MAT_SIFWOOD			"alien wood"
 #define MAT_SIFLOG			"alien log"
+#define MAT_BLOODWOOD		"bloodwood"
+#define MAT_BLOODWOODLOG	"bloodwood log"
 
 #define BOMBCAP_DVSTN_RADIUS (max_explosion_range/4)
 #define BOMBCAP_HEAVY_RADIUS (max_explosion_range/2)

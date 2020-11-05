@@ -220,3 +220,36 @@
 	var/image/glow = image(icon = 'icons/obj/flora/deadtrees.dmi', icon_state = "[icon_state]_glow")
 	glow.plane = PLANE_LIGHTING_ABOVE
 	overlays = list(glow)
+
+/obj/structure/flora/tree/bloodwood
+	name = "alien tree"
+	desc = "The tree sways even when there is no breeze. It feels more like flesh than a tree."
+	icon = 'icons/obj/flora/redspacetrees.dmi'
+	icon_state = "tree1"
+	health = 1000
+	max_health = 1000
+	pixel_x = -48
+	pixel_y = -16
+	product = /obj/item/stack/material/log/bloodwood
+	product_amount = 2
+	shake_animation_degrees = 2
+
+/obj/structure/flora/tree/bloodwood/stump()
+	if(is_stump)
+		return
+
+	is_stump = TRUE
+	density = FALSE
+	icon_state = "tree_stump"
+
+/obj/structure/flora/tree/bloodwood/dead
+	desc = "Branches on this tree appear to grow and shrink on a whim."
+	icon = 'icons/obj/flora/128x128.dmi'
+	icon_state = "redspace"
+	product = /obj/item/stack/material/log/bloodwood
+	health = 99999
+	max_health = 99999
+	pixel_y = -5
+	pixel_x = -46
+	product_amount = 10
+	shake_animation_degrees = 1
