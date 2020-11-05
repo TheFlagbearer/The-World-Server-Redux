@@ -38,7 +38,7 @@
 	aren't precise enough to manipulate the circuitry as needed. Please send us 20 nano-manipulators at your earliest \
 	convenience. A non-negotiable sum will be paid out for your services."
 
-	items_wanted = list(/obj/item/weapon/stock_parts/manipulator/super = 20)
+	items_wanted = list(/obj/item/weapon/stock_parts/manipulator/nano = 20)
 
 	department_reward = 300
 	individual_reward = 185
@@ -110,7 +110,7 @@
 	loyal customers says it might be an issue with something called a scanning module. We've offered to give him free Instant Food for a year if he \
 	installs the parts for us. Please send us some advanced scanning modules!"
 
-	items_wanted = list(/obj/item/weapon/stock_parts/scanning_module/high_res = 10)
+	items_wanted = list(/obj/item/weapon/stock_parts/scanning_module/adv = 10)
 
 	department_reward = 280
 	individual_reward = 85

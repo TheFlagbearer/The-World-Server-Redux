@@ -185,7 +185,7 @@ var/global/list/engineering_networks = list(
 	update_coverage()
 
 /obj/machinery/camera/proc/upgradeXRay()
-	assembly.upgrades.Add(new /obj/item/weapon/stock_parts/scanning_module/high_res(assembly))
+	assembly.upgrades.Add(new /obj/item/weapon/stock_parts/scanning_module/adv(assembly))
 	setPowerUsage()
 	update_coverage()
 
